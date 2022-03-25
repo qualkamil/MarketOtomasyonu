@@ -1,0 +1,2 @@
+# MarketOtomasyonu
+Yazılım Proje Yönetimi
