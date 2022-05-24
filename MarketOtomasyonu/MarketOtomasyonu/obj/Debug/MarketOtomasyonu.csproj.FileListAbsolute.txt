@@ -1,0 +1,10 @@
+C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\MarketOtomasyonu.exe.config
+C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\MarketOtomasyonu.exe
+C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\MarketOtomasyonu.pdb
+C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.csproj.AssemblyReference.cache
+C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.csproj.SuggestedBindingRedirects.cache
+C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.Properties.Resources.resources
+C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.csproj.GenerateResource.cache
+C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.exe
+C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.pdb
