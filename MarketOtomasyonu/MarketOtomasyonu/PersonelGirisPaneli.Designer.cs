@@ -29,83 +29,84 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.kullancıad = new System.Windows.Forms.Label();
-            this.şıfra = new System.Windows.Forms.Label();
-            this.kullaniciAdi = new System.Windows.Forms.TextBox();
-            this.sifre = new System.Windows.Forms.TextBox();
             this.girisYap = new System.Windows.Forms.Button();
+            this.sifre = new System.Windows.Forms.TextBox();
+            this.kullaniciAdi = new System.Windows.Forms.TextBox();
+            this.sıfre = new System.Windows.Forms.Label();
+            this.kullanıcıad = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Nirmala UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(208, 29);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(136, 70);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(337, 45);
+            this.label1.Size = new System.Drawing.Size(263, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Personel Giriş Paneli";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // kullancıad
+            // girisYap
             // 
-            this.kullancıad.AutoSize = true;
-            this.kullancıad.Location = new System.Drawing.Point(34, 187);
-            this.kullancıad.Name = "kullancıad";
-            this.kullancıad.Size = new System.Drawing.Size(121, 23);
-            this.kullancıad.TabIndex = 1;
-            this.kullancıad.Text = "Kullanıcı Adı :";
-            // 
-            // şıfra
-            // 
-            this.şıfra.AutoSize = true;
-            this.şıfra.Location = new System.Drawing.Point(43, 258);
-            this.şıfra.Name = "şıfra";
-            this.şıfra.Size = new System.Drawing.Size(60, 23);
-            this.şıfra.TabIndex = 2;
-            this.şıfra.Text = "Şifre :";
-            // 
-            // kullaniciAdi
-            // 
-            this.kullaniciAdi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.kullaniciAdi.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kullaniciAdi.Location = new System.Drawing.Point(449, 182);
-            this.kullaniciAdi.Name = "kullaniciAdi";
-            this.kullaniciAdi.Size = new System.Drawing.Size(334, 28);
-            this.kullaniciAdi.TabIndex = 3;
+            this.girisYap.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.girisYap.Location = new System.Drawing.Point(89, 299);
+            this.girisYap.Name = "girisYap";
+            this.girisYap.Size = new System.Drawing.Size(356, 68);
+            this.girisYap.TabIndex = 10;
+            this.girisYap.Text = "Giriş Yap";
+            this.girisYap.UseVisualStyleBackColor = true;
+            this.girisYap.Click += new System.EventHandler(this.girisYap_Click);
             // 
             // sifre
             // 
             this.sifre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.sifre.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sifre.Location = new System.Drawing.Point(449, 253);
+            this.sifre.Location = new System.Drawing.Point(215, 240);
             this.sifre.Name = "sifre";
-            this.sifre.Size = new System.Drawing.Size(334, 28);
-            this.sifre.TabIndex = 4;
+            this.sifre.PasswordChar = '*';
+            this.sifre.Size = new System.Drawing.Size(230, 24);
+            this.sifre.TabIndex = 9;
             // 
-            // girisYap
+            // kullaniciAdi
             // 
-            this.girisYap.BackColor = System.Drawing.SystemColors.Control;
-            this.girisYap.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.girisYap.Location = new System.Drawing.Point(38, 347);
-            this.girisYap.Name = "girisYap";
-            this.girisYap.Size = new System.Drawing.Size(736, 91);
-            this.girisYap.TabIndex = 5;
-            this.girisYap.Text = "Giriş Yap";
-            this.girisYap.UseVisualStyleBackColor = false;
-            this.girisYap.Click += new System.EventHandler(this.girisYap_Click);
+            this.kullaniciAdi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.kullaniciAdi.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kullaniciAdi.Location = new System.Drawing.Point(215, 178);
+            this.kullaniciAdi.Name = "kullaniciAdi";
+            this.kullaniciAdi.Size = new System.Drawing.Size(230, 24);
+            this.kullaniciAdi.TabIndex = 8;
+            // 
+            // sıfre
+            // 
+            this.sıfre.AutoSize = true;
+            this.sıfre.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold);
+            this.sıfre.Location = new System.Drawing.Point(85, 245);
+            this.sıfre.Name = "sıfre";
+            this.sıfre.Size = new System.Drawing.Size(47, 17);
+            this.sıfre.TabIndex = 7;
+            this.sıfre.Text = "Şifre :";
+            // 
+            // kullanıcıad
+            // 
+            this.kullanıcıad.AutoSize = true;
+            this.kullanıcıad.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kullanıcıad.Location = new System.Drawing.Point(85, 178);
+            this.kullanıcıad.Name = "kullanıcıad";
+            this.kullanıcıad.Size = new System.Drawing.Size(101, 17);
+            this.kullanıcıad.TabIndex = 6;
+            this.kullanıcıad.Text = "Kullanıcı Adi :";
             // 
             // PersonelGirisPaneli
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(524, 454);
             this.Controls.Add(this.girisYap);
             this.Controls.Add(this.sifre);
             this.Controls.Add(this.kullaniciAdi);
-            this.Controls.Add(this.şıfra);
-            this.Controls.Add(this.kullancıad);
+            this.Controls.Add(this.sıfre);
+            this.Controls.Add(this.kullanıcıad);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -120,10 +121,10 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label kullancıad;
-        private System.Windows.Forms.Label şıfra;
-        private System.Windows.Forms.TextBox kullaniciAdi;
-        private System.Windows.Forms.TextBox sifre;
         private System.Windows.Forms.Button girisYap;
+        private System.Windows.Forms.TextBox sifre;
+        private System.Windows.Forms.TextBox kullaniciAdi;
+        private System.Windows.Forms.Label sıfre;
+        private System.Windows.Forms.Label kullanıcıad;
     }
 }

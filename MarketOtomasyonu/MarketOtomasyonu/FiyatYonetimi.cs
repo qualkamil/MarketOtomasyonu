@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MarketOtomasyonu
 {
-    public partial class FiyatYönetimi : Form
+    public partial class FiyatYonetimi : Form
     {
-        public FiyatYönetimi()
+        public FiyatYonetimi()
         {
             InitializeComponent();
         }
