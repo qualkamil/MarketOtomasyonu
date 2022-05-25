@@ -21,5 +21,10 @@ namespace MarketOtomasyonu
         {
 
         }
+
+        private void girisYap_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

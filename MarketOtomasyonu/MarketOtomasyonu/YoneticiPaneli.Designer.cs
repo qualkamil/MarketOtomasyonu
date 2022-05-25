@@ -29,97 +29,90 @@
         private void InitializeComponent()
         {
             this.yonetıcıpanel = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.stokTakibi = new System.Windows.Forms.Button();
+            this.fiyetYönetimi = new System.Windows.Forms.Button();
+            this.gelirGiderKontrolü = new System.Windows.Forms.Button();
+            this.personelYonetimi = new System.Windows.Forms.Button();
+            this.cikisYap = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // yonetıcıpanel
             // 
             this.yonetıcıpanel.AutoSize = true;
             this.yonetıcıpanel.Font = new System.Drawing.Font("Nirmala UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yonetıcıpanel.Location = new System.Drawing.Point(125, 51);
+            this.yonetıcıpanel.Location = new System.Drawing.Point(261, 9);
             this.yonetıcıpanel.Name = "yonetıcıpanel";
-            this.yonetıcıpanel.Size = new System.Drawing.Size(253, 46);
+            this.yonetıcıpanel.Size = new System.Drawing.Size(244, 45);
             this.yonetıcıpanel.TabIndex = 0;
             this.yonetıcıpanel.Text = "Yönetici Paneli";
             // 
-            // button1
+            // stokTakibi
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(12, 213);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(230, 70);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "STOK Takibi";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.stokTakibi.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.stokTakibi.Location = new System.Drawing.Point(143, 110);
+            this.stokTakibi.Name = "stokTakibi";
+            this.stokTakibi.Size = new System.Drawing.Size(230, 70);
+            this.stokTakibi.TabIndex = 1;
+            this.stokTakibi.Text = "STOK Takibi";
+            this.stokTakibi.UseVisualStyleBackColor = true;
+            this.stokTakibi.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // fiyetYönetimi
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Location = new System.Drawing.Point(321, 213);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(230, 70);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Fiyat Yönetimi";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.fiyetYönetimi.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.fiyetYönetimi.Location = new System.Drawing.Point(437, 110);
+            this.fiyetYönetimi.Name = "fiyetYönetimi";
+            this.fiyetYönetimi.Size = new System.Drawing.Size(239, 70);
+            this.fiyetYönetimi.TabIndex = 2;
+            this.fiyetYönetimi.Text = "Fiyat Yönetimi";
+            this.fiyetYönetimi.UseVisualStyleBackColor = true;
+            this.fiyetYönetimi.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // gelirGiderKontrolü
             // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button3.Location = new System.Drawing.Point(12, 323);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(230, 70);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Gelir Gider Kontrolü";
-            this.button3.UseVisualStyleBackColor = true;
+            this.gelirGiderKontrolü.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.gelirGiderKontrolü.Location = new System.Drawing.Point(143, 229);
+            this.gelirGiderKontrolü.Name = "gelirGiderKontrolü";
+            this.gelirGiderKontrolü.Size = new System.Drawing.Size(230, 70);
+            this.gelirGiderKontrolü.TabIndex = 3;
+            this.gelirGiderKontrolü.Text = "Gelir Gider Kontrolü";
+            this.gelirGiderKontrolü.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // personelYonetimi
             // 
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button4.Location = new System.Drawing.Point(321, 332);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(230, 70);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Personel Yönetimi";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.personelYonetimi.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.personelYonetimi.Location = new System.Drawing.Point(437, 229);
+            this.personelYonetimi.Name = "personelYonetimi";
+            this.personelYonetimi.Size = new System.Drawing.Size(239, 70);
+            this.personelYonetimi.TabIndex = 4;
+            this.personelYonetimi.Text = "Personel Yönetimi";
+            this.personelYonetimi.UseVisualStyleBackColor = true;
+            this.personelYonetimi.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button5
+            // cikisYap
             // 
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button5.Location = new System.Drawing.Point(150, 477);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(230, 70);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Çıkış Yap";
-            this.button5.UseVisualStyleBackColor = true;
+            this.cikisYap.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cikisYap.Location = new System.Drawing.Point(275, 358);
+            this.cikisYap.Name = "cikisYap";
+            this.cikisYap.Size = new System.Drawing.Size(230, 70);
+            this.cikisYap.TabIndex = 5;
+            this.cikisYap.Text = "Çıkış Yap";
+            this.cikisYap.UseVisualStyleBackColor = true;
             // 
             // YoneticiPaneli
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(594, 594);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.cikisYap);
+            this.Controls.Add(this.personelYonetimi);
+            this.Controls.Add(this.gelirGiderKontrolü);
+            this.Controls.Add(this.fiyetYönetimi);
+            this.Controls.Add(this.stokTakibi);
             this.Controls.Add(this.yonetıcıpanel);
-            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "YoneticiPaneli";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "YoneticiPaneli";
             this.Load += new System.EventHandler(this.YoneticiPaneli_Load);
             this.ResumeLayout(false);
@@ -130,10 +123,10 @@
         #endregion
 
         private System.Windows.Forms.Label yonetıcıpanel;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button stokTakibi;
+        private System.Windows.Forms.Button fiyetYönetimi;
+        private System.Windows.Forms.Button gelirGiderKontrolü;
+        private System.Windows.Forms.Button personelYonetimi;
+        private System.Windows.Forms.Button cikisYap;
     }
 }

@@ -8,3 +8,13 @@ C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomas
 C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.csproj.CoreCompileInputs.cache
 C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.exe
 C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.pdb
+C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.Fiyat_Yönetimi.resources
+C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.GelirGiderKontrolü.resources
+C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.MarketOtomasyonu.resources
+C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.PersonelGirisPaneli.resources
+C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.PersonelPaneli.resources
+C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.PersonelYonetimi.resources
+C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.Satisıslemleri.resources
+C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.Stok_Takibi.resources
+C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.YoneticiGirisPaneli.resources
+C:\Users\Toshiba\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.YoneticiPaneli.resources

@@ -28,195 +28,194 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ColumnHeader columnHeader1;
             this.stoktakib = new System.Windows.Forms.Label();
-            this.barkodno = new System.Windows.Forms.Label();
-            this.stokadı = new System.Windows.Forms.Label();
-            this.stokmarkaad = new System.Windows.Forms.Label();
-            this.stokadedı = new System.Windows.Forms.Label();
+            this.BKN = new System.Windows.Forms.Label();
+            this.SKadı = new System.Windows.Forms.Label();
+            this.Skm = new System.Windows.Forms.Label();
+            this.SKadedi = new System.Windows.Forms.Label();
             this.sonfıyat = new System.Windows.Forms.Label();
-            this.soneklenenadet = new System.Windows.Forms.Label();
-            this.sontarıh = new System.Windows.Forms.Label();
-            this.BarKod = new System.Windows.Forms.TextBox();
+            this.sonadet = new System.Windows.Forms.Label();
+            this.sontarihi = new System.Windows.Forms.Label();
+            this.barkodNo = new System.Windows.Forms.TextBox();
             this.stokAdi = new System.Windows.Forms.TextBox();
-            this.StokMarka = new System.Windows.Forms.TextBox();
-            this.StokAdet = new System.Windows.Forms.TextBox();
+            this.stokMarka = new System.Windows.Forms.TextBox();
+            this.stokAdet = new System.Windows.Forms.TextBox();
             this.birimFiyat = new System.Windows.Forms.TextBox();
-            this.sonEklenenTarih = new System.Windows.Forms.TextBox();
+            this.sonEklenenAdet = new System.Windows.Forms.TextBox();
             this.sonEklenennTarih = new System.Windows.Forms.DateTimePicker();
-            this.label1 = new System.Windows.Forms.Label();
-            this.barkodNoİleArama = new System.Windows.Forms.TextBox();
+            this.BKNarama = new System.Windows.Forms.Label();
+            this.barkodNoArama = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.butara1 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
+            this.barkodArama = new System.Windows.Forms.Button();
+            this.SKadıaramak = new System.Windows.Forms.Label();
             this.stokAdiArama = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.ypdon = new System.Windows.Forms.Button();
-            this.sek = new System.Windows.Forms.Button();
-            this.ssil = new System.Windows.Forms.Button();
+            this.cikisYap = new System.Windows.Forms.Button();
+            this.stokEkle = new System.Windows.Forms.Button();
+            this.stokSil = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // stoktakib
             // 
             this.stoktakib.AutoSize = true;
-            this.stoktakib.Location = new System.Drawing.Point(13, 13);
+            this.stoktakib.Location = new System.Drawing.Point(4, 9);
             this.stoktakib.Name = "stoktakib";
             this.stoktakib.Size = new System.Drawing.Size(84, 20);
             this.stoktakib.TabIndex = 0;
             this.stoktakib.Text = "Stok Takibi";
             // 
-            // barkodno
+            // BKN
             // 
-            this.barkodno.AutoSize = true;
-            this.barkodno.Location = new System.Drawing.Point(12, 57);
-            this.barkodno.Name = "barkodno";
-            this.barkodno.Size = new System.Drawing.Size(92, 20);
-            this.barkodno.TabIndex = 1;
-            this.barkodno.Text = "Barkod No :";
-            this.barkodno.Click += new System.EventHandler(this.label1_Click_1);
+            this.BKN.AutoSize = true;
+            this.BKN.Location = new System.Drawing.Point(4, 43);
+            this.BKN.Name = "BKN";
+            this.BKN.Size = new System.Drawing.Size(92, 20);
+            this.BKN.TabIndex = 1;
+            this.BKN.Text = "Barkod No :";
+            this.BKN.Click += new System.EventHandler(this.label1_Click_1);
             // 
-            // stokadı
+            // SKadı
             // 
-            this.stokadı.AutoSize = true;
-            this.stokadı.Location = new System.Drawing.Point(12, 108);
-            this.stokadı.Name = "stokadı";
-            this.stokadı.Size = new System.Drawing.Size(76, 20);
-            this.stokadı.TabIndex = 2;
-            this.stokadı.Text = "Stok Adı :";
-            this.stokadı.Click += new System.EventHandler(this.stokadı_Click);
+            this.SKadı.AutoSize = true;
+            this.SKadı.Location = new System.Drawing.Point(4, 85);
+            this.SKadı.Name = "SKadı";
+            this.SKadı.Size = new System.Drawing.Size(76, 20);
+            this.SKadı.TabIndex = 2;
+            this.SKadı.Text = "Stok Adı :";
+            this.SKadı.Click += new System.EventHandler(this.stokadı_Click);
             // 
-            // stokmarkaad
+            // Skm
             // 
-            this.stokmarkaad.AutoSize = true;
-            this.stokmarkaad.Location = new System.Drawing.Point(12, 156);
-            this.stokmarkaad.Name = "stokmarkaad";
-            this.stokmarkaad.Size = new System.Drawing.Size(96, 20);
-            this.stokmarkaad.TabIndex = 3;
-            this.stokmarkaad.Text = "Stok Marka :";
+            this.Skm.AutoSize = true;
+            this.Skm.Location = new System.Drawing.Point(0, 124);
+            this.Skm.Name = "Skm";
+            this.Skm.Size = new System.Drawing.Size(96, 20);
+            this.Skm.TabIndex = 3;
+            this.Skm.Text = "Stok Marka :";
             // 
-            // stokadedı
+            // SKadedi
             // 
-            this.stokadedı.AutoSize = true;
-            this.stokadedı.Location = new System.Drawing.Point(12, 211);
-            this.stokadedı.Name = "stokadedı";
-            this.stokadedı.Size = new System.Drawing.Size(93, 20);
-            this.stokadedı.TabIndex = 4;
-            this.stokadedı.Text = "Stok Adedi :";
+            this.SKadedi.AutoSize = true;
+            this.SKadedi.Location = new System.Drawing.Point(0, 156);
+            this.SKadedi.Name = "SKadedi";
+            this.SKadedi.Size = new System.Drawing.Size(93, 20);
+            this.SKadedi.TabIndex = 4;
+            this.SKadedi.Text = "Stok Adedi :";
             // 
             // sonfıyat
             // 
             this.sonfıyat.AutoSize = true;
-            this.sonfıyat.Location = new System.Drawing.Point(12, 263);
+            this.sonfıyat.Location = new System.Drawing.Point(0, 210);
             this.sonfıyat.Name = "sonfıyat";
             this.sonfıyat.Size = new System.Drawing.Size(172, 20);
             this.sonfıyat.TabIndex = 5;
             this.sonfıyat.Text = "Son Alınan Birim Fiyat :";
             // 
-            // soneklenenadet
+            // sonadet
             // 
-            this.soneklenenadet.AutoSize = true;
-            this.soneklenenadet.Location = new System.Drawing.Point(12, 324);
-            this.soneklenenadet.Name = "soneklenenadet";
-            this.soneklenenadet.Size = new System.Drawing.Size(139, 20);
-            this.soneklenenadet.TabIndex = 6;
-            this.soneklenenadet.Text = "Son Eklenen Adet :";
+            this.sonadet.AutoSize = true;
+            this.sonadet.Location = new System.Drawing.Point(0, 242);
+            this.sonadet.Name = "sonadet";
+            this.sonadet.Size = new System.Drawing.Size(139, 20);
+            this.sonadet.TabIndex = 6;
+            this.sonadet.Text = "Son Eklenen Adet :";
             // 
-            // sontarıh
+            // sontarihi
             // 
-            this.sontarıh.AutoSize = true;
-            this.sontarıh.Location = new System.Drawing.Point(12, 376);
-            this.sontarıh.Name = "sontarıh";
-            this.sontarıh.Size = new System.Drawing.Size(139, 20);
-            this.sontarıh.TabIndex = 7;
-            this.sontarıh.Text = "Son Eklenen Tarih :";
+            this.sontarihi.AutoSize = true;
+            this.sontarihi.Location = new System.Drawing.Point(4, 280);
+            this.sontarihi.Name = "sontarihi";
+            this.sontarihi.Size = new System.Drawing.Size(139, 20);
+            this.sontarihi.TabIndex = 7;
+            this.sontarihi.Text = "Son Eklenen Tarih :";
             // 
-            // BarKod
+            // barkodNo
             // 
-            this.BarKod.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BarKod.Location = new System.Drawing.Point(190, 57);
-            this.BarKod.Name = "BarKod";
-            this.BarKod.Size = new System.Drawing.Size(201, 26);
-            this.BarKod.TabIndex = 8;
-            this.BarKod.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.barkodNo.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barkodNo.Location = new System.Drawing.Point(178, 37);
+            this.barkodNo.Name = "barkodNo";
+            this.barkodNo.Size = new System.Drawing.Size(141, 26);
+            this.barkodNo.TabIndex = 8;
+            this.barkodNo.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // stokAdi
             // 
-            this.stokAdi.Location = new System.Drawing.Point(190, 108);
+            this.stokAdi.Location = new System.Drawing.Point(178, 75);
             this.stokAdi.Name = "stokAdi";
-            this.stokAdi.Size = new System.Drawing.Size(200, 27);
+            this.stokAdi.Size = new System.Drawing.Size(141, 27);
             this.stokAdi.TabIndex = 9;
             // 
-            // StokMarka
+            // stokMarka
             // 
-            this.StokMarka.Enabled = false;
-            this.StokMarka.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StokMarka.Location = new System.Drawing.Point(190, 156);
-            this.StokMarka.Name = "StokMarka";
-            this.StokMarka.Size = new System.Drawing.Size(200, 26);
-            this.StokMarka.TabIndex = 10;
-            this.StokMarka.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.stokMarka.Enabled = false;
+            this.stokMarka.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stokMarka.Location = new System.Drawing.Point(178, 118);
+            this.stokMarka.Name = "stokMarka";
+            this.stokMarka.Size = new System.Drawing.Size(141, 26);
+            this.stokMarka.TabIndex = 10;
+            this.stokMarka.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // StokAdet
+            // stokAdet
             // 
-            this.StokAdet.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StokAdet.Location = new System.Drawing.Point(191, 204);
-            this.StokAdet.Name = "StokAdet";
-            this.StokAdet.Size = new System.Drawing.Size(200, 26);
-            this.StokAdet.TabIndex = 11;
+            this.stokAdet.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stokAdet.Location = new System.Drawing.Point(178, 156);
+            this.stokAdet.Name = "stokAdet";
+            this.stokAdet.Size = new System.Drawing.Size(141, 26);
+            this.stokAdet.TabIndex = 11;
             // 
             // birimFiyat
             // 
             this.birimFiyat.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.birimFiyat.Location = new System.Drawing.Point(191, 263);
+            this.birimFiyat.Location = new System.Drawing.Point(178, 204);
             this.birimFiyat.Name = "birimFiyat";
-            this.birimFiyat.Size = new System.Drawing.Size(200, 26);
+            this.birimFiyat.Size = new System.Drawing.Size(141, 26);
             this.birimFiyat.TabIndex = 12;
             this.birimFiyat.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
-            // sonEklenenTarih
+            // sonEklenenAdet
             // 
-            this.sonEklenenTarih.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sonEklenenTarih.Location = new System.Drawing.Point(191, 324);
-            this.sonEklenenTarih.Name = "sonEklenenTarih";
-            this.sonEklenenTarih.Size = new System.Drawing.Size(200, 26);
-            this.sonEklenenTarih.TabIndex = 13;
-            this.sonEklenenTarih.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
+            this.sonEklenenAdet.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sonEklenenAdet.Location = new System.Drawing.Point(174, 242);
+            this.sonEklenenAdet.Name = "sonEklenenAdet";
+            this.sonEklenenAdet.Size = new System.Drawing.Size(145, 26);
+            this.sonEklenenAdet.TabIndex = 13;
+            this.sonEklenenAdet.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // sonEklenennTarih
             // 
-            this.sonEklenennTarih.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sonEklenennTarih.Location = new System.Drawing.Point(191, 376);
+            this.sonEklenennTarih.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.sonEklenennTarih.Location = new System.Drawing.Point(174, 274);
             this.sonEklenennTarih.Name = "sonEklenennTarih";
-            this.sonEklenennTarih.Size = new System.Drawing.Size(200, 26);
+            this.sonEklenennTarih.Size = new System.Drawing.Size(145, 23);
             this.sonEklenennTarih.TabIndex = 14;
             this.sonEklenennTarih.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // label1
+            // BKNarama
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(495, 67);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(155, 20);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "Barkod No ile Arama";
-            this.label1.Click += new System.EventHandler(this.label1_Click_2);
+            this.BKNarama.AutoSize = true;
+            this.BKNarama.Location = new System.Drawing.Point(397, 37);
+            this.BKNarama.Name = "BKNarama";
+            this.BKNarama.Size = new System.Drawing.Size(155, 20);
+            this.BKNarama.TabIndex = 15;
+            this.BKNarama.Text = "Barkod No ile Arama";
+            this.BKNarama.Click += new System.EventHandler(this.label1_Click_2);
             // 
-            // barkodNoİleArama
+            // barkodNoArama
             // 
-            this.barkodNoİleArama.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barkodNoİleArama.Location = new System.Drawing.Point(499, 108);
-            this.barkodNoİleArama.Name = "barkodNoİleArama";
-            this.barkodNoİleArama.Size = new System.Drawing.Size(165, 26);
-            this.barkodNoİleArama.TabIndex = 16;
+            this.barkodNoArama.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barkodNoArama.Location = new System.Drawing.Point(401, 60);
+            this.barkodNoArama.Name = "barkodNoArama";
+            this.barkodNoArama.Size = new System.Drawing.Size(151, 26);
+            this.barkodNoArama.TabIndex = 16;
             // 
             // label2
             // 
@@ -226,30 +225,29 @@
             this.label2.Size = new System.Drawing.Size(0, 20);
             this.label2.TabIndex = 17;
             // 
-            // butara1
+            // barkodArama
             // 
-            this.butara1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butara1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.butara1.Location = new System.Drawing.Point(499, 156);
-            this.butara1.Name = "butara1";
-            this.butara1.Size = new System.Drawing.Size(165, 52);
-            this.butara1.TabIndex = 18;
-            this.butara1.Text = "Ara";
-            this.butara1.UseVisualStyleBackColor = true;
+            this.barkodArama.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.barkodArama.Location = new System.Drawing.Point(401, 92);
+            this.barkodArama.Name = "barkodArama";
+            this.barkodArama.Size = new System.Drawing.Size(142, 48);
+            this.barkodArama.TabIndex = 18;
+            this.barkodArama.Text = "Ara";
+            this.barkodArama.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // SKadıaramak
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(498, 242);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(139, 20);
-            this.label3.TabIndex = 19;
-            this.label3.Text = "Stok Adı ile Arama";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.SKadıaramak.AutoSize = true;
+            this.SKadıaramak.Location = new System.Drawing.Point(397, 162);
+            this.SKadıaramak.Name = "SKadıaramak";
+            this.SKadıaramak.Size = new System.Drawing.Size(139, 20);
+            this.SKadıaramak.TabIndex = 19;
+            this.SKadıaramak.Text = "Stok Adı ile Arama";
+            this.SKadıaramak.Click += new System.EventHandler(this.label3_Click);
             // 
             // stokAdiArama
             // 
-            this.stokAdiArama.Location = new System.Drawing.Point(502, 294);
+            this.stokAdiArama.Location = new System.Drawing.Point(387, 185);
             this.stokAdiArama.Name = "stokAdiArama";
             this.stokAdiArama.Size = new System.Drawing.Size(165, 27);
             this.stokAdiArama.TabIndex = 20;
@@ -257,147 +255,142 @@
             // 
             // button1
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(499, 354);
+            this.button1.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.Location = new System.Drawing.Point(387, 242);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(165, 62);
+            this.button1.Size = new System.Drawing.Size(156, 48);
             this.button1.TabIndex = 21;
             this.button1.Text = "Ara";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // ypdon
+            // cikisYap
             // 
-            this.ypdon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ypdon.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ypdon.Location = new System.Drawing.Point(953, 108);
-            this.ypdon.Name = "ypdon";
-            this.ypdon.Size = new System.Drawing.Size(251, 100);
-            this.ypdon.TabIndex = 22;
-            this.ypdon.Text = "Yönetici Paneline Dön";
-            this.ypdon.UseVisualStyleBackColor = true;
+            this.cikisYap.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cikisYap.Location = new System.Drawing.Point(624, 77);
+            this.cikisYap.Name = "cikisYap";
+            this.cikisYap.Size = new System.Drawing.Size(164, 63);
+            this.cikisYap.TabIndex = 22;
+            this.cikisYap.Text = "Yönetici Paneline Dön";
+            this.cikisYap.UseVisualStyleBackColor = true;
             // 
-            // sek
+            // stokEkle
             // 
-            this.sek.Location = new System.Drawing.Point(12, 472);
-            this.sek.Name = "sek";
-            this.sek.Size = new System.Drawing.Size(137, 35);
-            this.sek.TabIndex = 23;
-            this.sek.Text = "Stok Ekle";
-            this.sek.UseVisualStyleBackColor = true;
+            this.stokEkle.Location = new System.Drawing.Point(12, 334);
+            this.stokEkle.Name = "stokEkle";
+            this.stokEkle.Size = new System.Drawing.Size(111, 35);
+            this.stokEkle.TabIndex = 23;
+            this.stokEkle.Text = "Stok Ekle";
+            this.stokEkle.UseVisualStyleBackColor = true;
             // 
-            // ssil
+            // stokSil
             // 
-            this.ssil.Location = new System.Drawing.Point(174, 472);
-            this.ssil.Name = "ssil";
-            this.ssil.Size = new System.Drawing.Size(137, 35);
-            this.ssil.TabIndex = 24;
-            this.ssil.Text = "stok Sil";
-            this.ssil.UseVisualStyleBackColor = true;
+            this.stokSil.Location = new System.Drawing.Point(152, 334);
+            this.stokSil.Name = "stokSil";
+            this.stokSil.Size = new System.Drawing.Size(106, 35);
+            this.stokSil.TabIndex = 24;
+            this.stokSil.Text = "stok Sil";
+            this.stokSil.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(339, 472);
+            this.button4.Location = new System.Drawing.Point(281, 334);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(137, 35);
+            this.button4.Size = new System.Drawing.Size(97, 35);
             this.button4.TabIndex = 25;
-            this.button4.Text = "Stok Güncelle";
+            this.button4.Text = "stokGüncelle";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // listView1
             // 
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
             this.columnHeader2,
-            columnHeader1,
             this.columnHeader3,
             this.columnHeader4,
             this.columnHeader5,
             this.columnHeader6,
             this.columnHeader7});
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(12, 532);
+            this.listView1.Location = new System.Drawing.Point(13, 376);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(1305, 156);
+            this.listView1.Size = new System.Drawing.Size(775, 62);
             this.listView1.TabIndex = 26;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
             // 
             // columnHeader1
             // 
-            columnHeader1.DisplayIndex = 0;
-            columnHeader1.Text = "Stok Adı";
-            columnHeader1.Width = 200;
+            this.columnHeader1.Text = "BarkodNo";
+            this.columnHeader1.Width = 100;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.DisplayIndex = 1;
-            this.columnHeader2.Text = "BarkodNo";
-            this.columnHeader2.Width = 200;
+            this.columnHeader2.Text = "Stok Adı";
+            this.columnHeader2.Width = 150;
             // 
             // columnHeader3
             // 
             this.columnHeader3.Text = "Stok Marka";
-            this.columnHeader3.Width = 150;
+            this.columnHeader3.Width = 90;
             // 
             // columnHeader4
             // 
             this.columnHeader4.Text = "Stok Adedi";
-            this.columnHeader4.Width = 150;
+            this.columnHeader4.Width = 90;
             // 
             // columnHeader5
             // 
             this.columnHeader5.Text = "Son Alınan Birim Fiyat";
-            this.columnHeader5.Width = 200;
+            this.columnHeader5.Width = 115;
             // 
             // columnHeader6
             // 
-            this.columnHeader6.Text = "Son Eklenen Adet";
-            this.columnHeader6.Width = 200;
+            this.columnHeader6.Text = "Son EklenenAdet";
+            this.columnHeader6.Width = 115;
             // 
             // columnHeader7
             // 
-            this.columnHeader7.Text = "son EklenenTarih";
-            this.columnHeader7.Width = 229;
+            this.columnHeader7.Text = "Son Eklenen Tarih";
+            this.columnHeader7.Width = 115;
             // 
             // Stok_Takibi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1329, 700);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.ssil);
-            this.Controls.Add(this.sek);
-            this.Controls.Add(this.ypdon);
+            this.Controls.Add(this.stokSil);
+            this.Controls.Add(this.stokEkle);
+            this.Controls.Add(this.cikisYap);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.stokAdiArama);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.butara1);
+            this.Controls.Add(this.SKadıaramak);
+            this.Controls.Add(this.barkodArama);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.barkodNoİleArama);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.barkodNoArama);
+            this.Controls.Add(this.BKNarama);
             this.Controls.Add(this.sonEklenennTarih);
-            this.Controls.Add(this.sonEklenenTarih);
+            this.Controls.Add(this.sonEklenenAdet);
             this.Controls.Add(this.birimFiyat);
-            this.Controls.Add(this.StokAdet);
-            this.Controls.Add(this.StokMarka);
+            this.Controls.Add(this.stokAdet);
+            this.Controls.Add(this.stokMarka);
             this.Controls.Add(this.stokAdi);
-            this.Controls.Add(this.BarKod);
-            this.Controls.Add(this.sontarıh);
-            this.Controls.Add(this.soneklenenadet);
+            this.Controls.Add(this.barkodNo);
+            this.Controls.Add(this.sontarihi);
+            this.Controls.Add(this.sonadet);
             this.Controls.Add(this.sonfıyat);
-            this.Controls.Add(this.stokadedı);
-            this.Controls.Add(this.stokmarkaad);
-            this.Controls.Add(this.stokadı);
-            this.Controls.Add(this.barkodno);
+            this.Controls.Add(this.SKadedi);
+            this.Controls.Add(this.Skm);
+            this.Controls.Add(this.SKadı);
+            this.Controls.Add(this.BKN);
             this.Controls.Add(this.stoktakib);
             this.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Stok_Takibi";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Stok_Takibi";
             this.Load += new System.EventHandler(this.Stok_Takibi_Load);
             this.ResumeLayout(false);
@@ -408,32 +401,33 @@
         #endregion
 
         private System.Windows.Forms.Label stoktakib;
-        private System.Windows.Forms.Label barkodno;
-        private System.Windows.Forms.Label stokadı;
-        private System.Windows.Forms.Label stokmarkaad;
-        private System.Windows.Forms.Label stokadedı;
+        private System.Windows.Forms.Label BKN;
+        private System.Windows.Forms.Label SKadı;
+        private System.Windows.Forms.Label Skm;
+        private System.Windows.Forms.Label SKadedi;
         private System.Windows.Forms.Label sonfıyat;
-        private System.Windows.Forms.Label soneklenenadet;
-        private System.Windows.Forms.Label sontarıh;
-        private System.Windows.Forms.TextBox BarKod;
+        private System.Windows.Forms.Label sonadet;
+        private System.Windows.Forms.Label sontarihi;
+        private System.Windows.Forms.TextBox barkodNo;
         private System.Windows.Forms.TextBox stokAdi;
-        private System.Windows.Forms.TextBox StokMarka;
-        private System.Windows.Forms.TextBox StokAdet;
+        private System.Windows.Forms.TextBox stokMarka;
+        private System.Windows.Forms.TextBox stokAdet;
         private System.Windows.Forms.TextBox birimFiyat;
-        private System.Windows.Forms.TextBox sonEklenenTarih;
+        private System.Windows.Forms.TextBox sonEklenenAdet;
         private System.Windows.Forms.DateTimePicker sonEklenennTarih;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox barkodNoİleArama;
+        private System.Windows.Forms.Label BKNarama;
+        private System.Windows.Forms.TextBox barkodNoArama;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button butara1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button barkodArama;
+        private System.Windows.Forms.Label SKadıaramak;
         private System.Windows.Forms.TextBox stokAdiArama;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button ypdon;
-        private System.Windows.Forms.Button sek;
-        private System.Windows.Forms.Button ssil;
+        private System.Windows.Forms.Button cikisYap;
+        private System.Windows.Forms.Button stokEkle;
+        private System.Windows.Forms.Button stokSil;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;

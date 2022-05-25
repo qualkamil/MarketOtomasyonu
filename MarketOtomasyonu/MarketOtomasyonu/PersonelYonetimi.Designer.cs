@@ -30,7 +30,7 @@
         {
             this.pyonetmek = new System.Windows.Forms.Label();
             this.peklemek = new System.Windows.Forms.Label();
-            this.kullanıcıAdı = new System.Windows.Forms.TextBox();
+            this.kullaniciAdi = new System.Windows.Forms.TextBox();
             this.sifre = new System.Windows.Forms.TextBox();
             this.adiSoyadi = new System.Windows.Forms.TextBox();
             this.padı = new System.Windows.Forms.Label();
@@ -50,7 +50,7 @@
             // 
             this.pyonetmek.AutoSize = true;
             this.pyonetmek.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pyonetmek.Location = new System.Drawing.Point(13, 13);
+            this.pyonetmek.Location = new System.Drawing.Point(3, 9);
             this.pyonetmek.Name = "pyonetmek";
             this.pyonetmek.Size = new System.Drawing.Size(207, 31);
             this.pyonetmek.TabIndex = 0;
@@ -60,31 +60,31 @@
             // 
             this.peklemek.AutoSize = true;
             this.peklemek.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.peklemek.Location = new System.Drawing.Point(16, 68);
+            this.peklemek.Location = new System.Drawing.Point(12, 55);
             this.peklemek.Name = "peklemek";
             this.peklemek.Size = new System.Drawing.Size(166, 28);
             this.peklemek.TabIndex = 1;
             this.peklemek.Text = "Personel Ekleme";
             // 
-            // kullanıcıAdı
+            // kullaniciAdi
             // 
-            this.kullanıcıAdı.Location = new System.Drawing.Point(181, 115);
-            this.kullanıcıAdı.Name = "kullanıcıAdı";
-            this.kullanıcıAdı.Size = new System.Drawing.Size(221, 25);
-            this.kullanıcıAdı.TabIndex = 2;
+            this.kullaniciAdi.Location = new System.Drawing.Point(181, 115);
+            this.kullaniciAdi.Name = "kullaniciAdi";
+            this.kullaniciAdi.Size = new System.Drawing.Size(162, 25);
+            this.kullaniciAdi.TabIndex = 2;
             // 
             // sifre
             // 
             this.sifre.Location = new System.Drawing.Point(181, 171);
             this.sifre.Name = "sifre";
-            this.sifre.Size = new System.Drawing.Size(221, 25);
+            this.sifre.Size = new System.Drawing.Size(162, 25);
             this.sifre.TabIndex = 3;
             // 
             // adiSoyadi
             // 
             this.adiSoyadi.Location = new System.Drawing.Point(181, 224);
             this.adiSoyadi.Name = "adiSoyadi";
-            this.adiSoyadi.Size = new System.Drawing.Size(221, 25);
+            this.adiSoyadi.Size = new System.Drawing.Size(162, 25);
             this.adiSoyadi.TabIndex = 4;
             // 
             // padı
@@ -124,9 +124,9 @@
             // 
             this.cikisYap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cikisYap.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cikisYap.Location = new System.Drawing.Point(934, 83);
+            this.cikisYap.Location = new System.Drawing.Point(529, 108);
             this.cikisYap.Name = "cikisYap";
-            this.cikisYap.Size = new System.Drawing.Size(273, 113);
+            this.cikisYap.Size = new System.Drawing.Size(227, 85);
             this.cikisYap.TabIndex = 8;
             this.cikisYap.Text = "Yönetici Paneline Dön";
             this.cikisYap.UseVisualStyleBackColor = true;
@@ -136,9 +136,9 @@
             // 
             this.personelEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.personelEkle.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.personelEkle.Location = new System.Drawing.Point(181, 358);
+            this.personelEkle.Location = new System.Drawing.Point(181, 278);
             this.personelEkle.Name = "personelEkle";
-            this.personelEkle.Size = new System.Drawing.Size(221, 51);
+            this.personelEkle.Size = new System.Drawing.Size(162, 51);
             this.personelEkle.TabIndex = 9;
             this.personelEkle.Text = "Personel Ekle";
             this.personelEkle.UseVisualStyleBackColor = true;
@@ -148,9 +148,9 @@
             // 
             this.personelSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.personelSil.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.personelSil.Location = new System.Drawing.Point(522, 358);
+            this.personelSil.Location = new System.Drawing.Point(370, 278);
             this.personelSil.Name = "personelSil";
-            this.personelSil.Size = new System.Drawing.Size(220, 51);
+            this.personelSil.Size = new System.Drawing.Size(155, 51);
             this.personelSil.TabIndex = 10;
             this.personelSil.Text = "Sil";
             this.personelSil.UseVisualStyleBackColor = true;
@@ -160,9 +160,9 @@
             // 
             this.guncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.guncelle.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guncelle.Location = new System.Drawing.Point(843, 358);
+            this.guncelle.Location = new System.Drawing.Point(545, 278);
             this.guncelle.Name = "guncelle";
-            this.guncelle.Size = new System.Drawing.Size(220, 51);
+            this.guncelle.Size = new System.Drawing.Size(159, 51);
             this.guncelle.TabIndex = 11;
             this.guncelle.Text = "Güncelle";
             this.guncelle.UseVisualStyleBackColor = true;
@@ -174,9 +174,9 @@
             this.columnHeader2,
             this.columnHeader3});
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(13, 456);
+            this.listView1.Location = new System.Drawing.Point(12, 349);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(1241, 211);
+            this.listView1.Size = new System.Drawing.Size(776, 89);
             this.listView1.TabIndex = 12;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -184,24 +184,24 @@
             // columnHeader1
             // 
             this.columnHeader1.Text = "Kullanıcı Adı";
-            this.columnHeader1.Width = 527;
+            this.columnHeader1.Width = 300;
             // 
             // columnHeader2
             // 
             this.columnHeader2.Text = "Şifre";
-            this.columnHeader2.Width = 200;
+            this.columnHeader2.Width = 163;
             // 
             // columnHeader3
             // 
             this.columnHeader3.Text = "Adı Soyadı";
-            this.columnHeader3.Width = 500;
+            this.columnHeader3.Width = 300;
             // 
             // PersonelYonetimi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1277, 700);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.guncelle);
             this.Controls.Add(this.personelSil);
@@ -212,14 +212,12 @@
             this.Controls.Add(this.padı);
             this.Controls.Add(this.adiSoyadi);
             this.Controls.Add(this.sifre);
-            this.Controls.Add(this.kullanıcıAdı);
+            this.Controls.Add(this.kullaniciAdi);
             this.Controls.Add(this.peklemek);
             this.Controls.Add(this.pyonetmek);
             this.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "PersonelYonetimi";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PersonelYonetimi";
             this.Load += new System.EventHandler(this.PersonelYonetimi_Load);
             this.ResumeLayout(false);
@@ -231,7 +229,7 @@
 
         private System.Windows.Forms.Label pyonetmek;
         private System.Windows.Forms.Label peklemek;
-        private System.Windows.Forms.TextBox kullanıcıAdı;
+        private System.Windows.Forms.TextBox kullaniciAdi;
         private System.Windows.Forms.TextBox sifre;
         private System.Windows.Forms.TextBox adiSoyadi;
         private System.Windows.Forms.Label padı;
