@@ -92,11 +92,11 @@
     <Compile Include="SatisIslemleri.Designer.cs">
       <DependentUpon>SatisIslemleri.cs</DependentUpon>
     </Compile>
-    <Compile Include="Stok Takibi.cs">
+    <Compile Include="StokTakibi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Stok Takibi.Designer.cs">
-      <DependentUpon>Stok Takibi.cs</DependentUpon>
+    <Compile Include="StokTakibi.Designer.cs">
+      <DependentUpon>StokTakibi.cs</DependentUpon>
     </Compile>
     <Compile Include="YoneticiGirisPaneli.cs">
       <SubType>Form</SubType>
@@ -141,8 +141,8 @@
     <EmbeddedResource Include="SatisIslemleri.resx">
       <DependentUpon>SatisIslemleri.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Stok Takibi.resx">
-      <DependentUpon>Stok Takibi.cs</DependentUpon>
+    <EmbeddedResource Include="StokTakibi.resx">
+      <DependentUpon>StokTakibi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="YoneticiGirisPaneli.resx">
       <DependentUpon>YoneticiGirisPaneli.cs</DependentUpon>
