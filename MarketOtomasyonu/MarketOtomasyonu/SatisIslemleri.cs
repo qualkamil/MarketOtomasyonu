@@ -16,5 +16,20 @@ namespace MarketOtomasyonu
         {
             InitializeComponent();
         }
+
+        private void nakıt_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void topfıyat_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cıkısYap_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -40,30 +40,30 @@
             // 
             this.yonetıcıgirişpanel.AutoSize = true;
             this.yonetıcıgirişpanel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.yonetıcıgirişpanel.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yonetıcıgirişpanel.Location = new System.Drawing.Point(89, 66);
+            this.yonetıcıgirişpanel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.yonetıcıgirişpanel.Location = new System.Drawing.Point(129, 62);
             this.yonetıcıgirişpanel.Name = "yonetıcıgirişpanel";
-            this.yonetıcıgirişpanel.Size = new System.Drawing.Size(260, 31);
+            this.yonetıcıgirişpanel.Size = new System.Drawing.Size(183, 23);
             this.yonetıcıgirişpanel.TabIndex = 0;
             this.yonetıcıgirişpanel.Text = "Yönetici Giriş Paneli";
             // 
             // kullanıcıad
             // 
             this.kullanıcıad.AutoSize = true;
-            this.kullanıcıad.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kullanıcıad.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.kullanıcıad.Location = new System.Drawing.Point(43, 191);
             this.kullanıcıad.Name = "kullanıcıad";
-            this.kullanıcıad.Size = new System.Drawing.Size(101, 17);
+            this.kullanıcıad.Size = new System.Drawing.Size(125, 22);
             this.kullanıcıad.TabIndex = 1;
             this.kullanıcıad.Text = "Kullanıcı Adi :";
             // 
             // sıfre
             // 
             this.sıfre.AutoSize = true;
-            this.sıfre.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold);
+            this.sıfre.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.sıfre.Location = new System.Drawing.Point(43, 258);
             this.sıfre.Name = "sıfre";
-            this.sıfre.Size = new System.Drawing.Size(47, 17);
+            this.sıfre.Size = new System.Drawing.Size(59, 22);
             this.sıfre.TabIndex = 2;
             this.sıfre.Text = "Şifre :";
             // 
@@ -73,22 +73,22 @@
             this.kullaniciAdi.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.kullaniciAdi.Location = new System.Drawing.Point(173, 191);
             this.kullaniciAdi.Name = "kullaniciAdi";
-            this.kullaniciAdi.Size = new System.Drawing.Size(230, 24);
+            this.kullaniciAdi.Size = new System.Drawing.Size(230, 28);
             this.kullaniciAdi.TabIndex = 3;
             // 
             // sifre
             // 
             this.sifre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.sifre.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sifre.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.sifre.Location = new System.Drawing.Point(173, 253);
             this.sifre.Name = "sifre";
             this.sifre.PasswordChar = '*';
-            this.sifre.Size = new System.Drawing.Size(230, 24);
+            this.sifre.Size = new System.Drawing.Size(230, 28);
             this.sifre.TabIndex = 4;
             // 
             // girisYap
             // 
-            this.girisYap.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.girisYap.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.girisYap.Location = new System.Drawing.Point(47, 312);
             this.girisYap.Name = "girisYap";
             this.girisYap.Size = new System.Drawing.Size(356, 68);
@@ -99,7 +99,7 @@
             // 
             // YoneticiGirisPaneli
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(430, 448);

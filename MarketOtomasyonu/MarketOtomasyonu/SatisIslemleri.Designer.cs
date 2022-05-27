@@ -42,106 +42,120 @@
             this.fıyat = new System.Windows.Forms.Label();
             this.topfıyat = new System.Windows.Forms.Label();
             this.sil = new System.Windows.Forms.Button();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.satısle = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // cıkısYap
             // 
-            this.cıkısYap.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cıkısYap.Location = new System.Drawing.Point(577, 377);
+            this.cıkısYap.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cıkısYap.Location = new System.Drawing.Point(568, 416);
+            this.cıkısYap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cıkısYap.Name = "cıkısYap";
-            this.cıkısYap.Size = new System.Drawing.Size(190, 63);
+            this.cıkısYap.Size = new System.Drawing.Size(197, 66);
             this.cıkısYap.TabIndex = 31;
             this.cıkısYap.Text = "Personel Paneline Dön";
             this.cıkısYap.UseVisualStyleBackColor = true;
+            this.cıkısYap.Click += new System.EventHandler(this.cıkısYap_Click);
             // 
             // odeme
             // 
-            this.odeme.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.odeme.Location = new System.Drawing.Point(505, 321);
+            this.odeme.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.odeme.Location = new System.Drawing.Point(530, 366);
+            this.odeme.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.odeme.Name = "odeme";
-            this.odeme.Size = new System.Drawing.Size(262, 38);
+            this.odeme.Size = new System.Drawing.Size(278, 38);
             this.odeme.TabIndex = 30;
             this.odeme.Text = "Ödemeyi Onayla";
             this.odeme.UseVisualStyleBackColor = true;
             // 
             // urunEkle
             // 
-            this.urunEkle.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.urunEkle.Location = new System.Drawing.Point(133, 396);
+            this.urunEkle.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.urunEkle.Location = new System.Drawing.Point(127, 416);
+            this.urunEkle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.urunEkle.Name = "urunEkle";
-            this.urunEkle.Size = new System.Drawing.Size(138, 44);
+            this.urunEkle.Size = new System.Drawing.Size(184, 37);
             this.urunEkle.TabIndex = 29;
             this.urunEkle.Text = "Ekle";
             this.urunEkle.UseVisualStyleBackColor = true;
             // 
             // urunAdedi
             // 
-            this.urunAdedi.Location = new System.Drawing.Point(133, 361);
+            this.urunAdedi.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.urunAdedi.Location = new System.Drawing.Point(128, 366);
+            this.urunAdedi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.urunAdedi.Name = "urunAdedi";
-            this.urunAdedi.Size = new System.Drawing.Size(138, 20);
+            this.urunAdedi.Size = new System.Drawing.Size(183, 28);
             this.urunAdedi.TabIndex = 28;
             // 
             // barkodNo
             // 
-            this.barkodNo.Location = new System.Drawing.Point(133, 321);
+            this.barkodNo.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.barkodNo.Location = new System.Drawing.Point(128, 329);
+            this.barkodNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.barkodNo.Name = "barkodNo";
-            this.barkodNo.Size = new System.Drawing.Size(138, 20);
+            this.barkodNo.Size = new System.Drawing.Size(183, 28);
             this.barkodNo.TabIndex = 27;
             // 
             // adett
             // 
             this.adett.AutoSize = true;
-            this.adett.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.adett.Location = new System.Drawing.Point(39, 364);
+            this.adett.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.adett.Location = new System.Drawing.Point(13, 366);
+            this.adett.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.adett.Name = "adett";
-            this.adett.Size = new System.Drawing.Size(38, 13);
+            this.adett.Size = new System.Drawing.Size(58, 22);
             this.adett.TabIndex = 26;
             this.adett.Text = "Adet :";
             // 
             // BKN
             // 
             this.BKN.AutoSize = true;
-            this.BKN.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BKN.Location = new System.Drawing.Point(34, 329);
+            this.BKN.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BKN.Location = new System.Drawing.Point(9, 331);
+            this.BKN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BKN.Name = "BKN";
-            this.BKN.Size = new System.Drawing.Size(69, 13);
+            this.BKN.Size = new System.Drawing.Size(111, 22);
             this.BKN.TabIndex = 25;
             this.BKN.Text = "Barkod No :";
             // 
             // urunuek
             // 
             this.urunuek.AutoSize = true;
-            this.urunuek.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.urunuek.Location = new System.Drawing.Point(34, 291);
+            this.urunuek.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.urunuek.Location = new System.Drawing.Point(13, 299);
+            this.urunuek.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.urunuek.Name = "urunuek";
-            this.urunuek.Size = new System.Drawing.Size(73, 13);
+            this.urunuek.Size = new System.Drawing.Size(118, 22);
             this.urunuek.TabIndex = 24;
             this.urunuek.Text = "Ürün Ekleme";
             // 
             // odemetur
             // 
             this.odemetur.AutoSize = true;
-            this.odemetur.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.odemetur.Location = new System.Drawing.Point(502, 275);
+            this.odemetur.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.odemetur.Location = new System.Drawing.Point(526, 329);
+            this.odemetur.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.odemetur.Name = "odemetur";
-            this.odemetur.Size = new System.Drawing.Size(44, 13);
+            this.odemetur.Size = new System.Drawing.Size(68, 22);
             this.odemetur.TabIndex = 23;
             this.odemetur.Text = "Ödeme";
             // 
             // kk
             // 
             this.kk.AutoSize = true;
-            this.kk.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kk.Location = new System.Drawing.Point(673, 273);
+            this.kk.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.kk.Location = new System.Drawing.Point(708, 327);
+            this.kk.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.kk.Name = "kk";
-            this.kk.Size = new System.Drawing.Size(79, 17);
+            this.kk.Size = new System.Drawing.Size(125, 26);
             this.kk.TabIndex = 22;
             this.kk.TabStop = true;
             this.kk.Text = "Kredi Kartı";
@@ -150,101 +164,111 @@
             // nakıt
             // 
             this.nakıt.AutoSize = true;
-            this.nakıt.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nakıt.Location = new System.Drawing.Point(577, 271);
+            this.nakıt.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.nakıt.Location = new System.Drawing.Point(602, 329);
+            this.nakıt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nakıt.Name = "nakıt";
-            this.nakıt.Size = new System.Drawing.Size(53, 17);
+            this.nakıt.Size = new System.Drawing.Size(77, 26);
             this.nakıt.TabIndex = 21;
             this.nakıt.TabStop = true;
             this.nakıt.Text = "Nakit";
             this.nakıt.UseVisualStyleBackColor = true;
+            this.nakıt.CheckedChanged += new System.EventHandler(this.nakıt_CheckedChanged);
             // 
             // fıyat
             // 
             this.fıyat.AutoSize = true;
-            this.fıyat.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fıyat.Location = new System.Drawing.Point(630, 222);
+            this.fıyat.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.fıyat.Location = new System.Drawing.Point(668, 273);
+            this.fıyat.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.fıyat.Name = "fıyat";
-            this.fıyat.Size = new System.Drawing.Size(35, 13);
+            this.fıyat.Size = new System.Drawing.Size(57, 22);
             this.fıyat.TabIndex = 20;
             this.fıyat.Text = "Fiyat ";
             // 
             // topfıyat
             // 
             this.topfıyat.AutoSize = true;
-            this.topfıyat.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.topfıyat.Location = new System.Drawing.Point(493, 222);
+            this.topfıyat.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.topfıyat.Location = new System.Drawing.Point(512, 273);
+            this.topfıyat.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.topfıyat.Name = "topfıyat";
-            this.topfıyat.Size = new System.Drawing.Size(79, 13);
+            this.topfıyat.Size = new System.Drawing.Size(128, 22);
             this.topfıyat.TabIndex = 19;
             this.topfıyat.Text = "Toplam Fiyat :";
+            this.topfıyat.Click += new System.EventHandler(this.topfıyat_Click);
             // 
             // sil
             // 
-            this.sil.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sil.Location = new System.Drawing.Point(37, 222);
+            this.sil.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sil.Location = new System.Drawing.Point(13, 241);
+            this.sil.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.sil.Name = "sil";
-            this.sil.Size = new System.Drawing.Size(188, 48);
+            this.sil.Size = new System.Drawing.Size(202, 54);
             this.sil.TabIndex = 18;
             this.sil.Text = "Seçili Ürün Kaldır";
             this.sil.UseVisualStyleBackColor = true;
             // 
-            // listView1
-            // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader4,
-            this.columnHeader6,
-            this.columnHeader7,
-            this.columnHeader8,
-            this.columnHeader9});
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(37, 52);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(712, 145);
-            this.listView1.TabIndex = 17;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Barkod No";
-            this.columnHeader4.Width = 200;
-            // 
-            // columnHeader6
-            // 
-            this.columnHeader6.Text = "Ürün Adı";
-            this.columnHeader6.Width = 100;
-            // 
-            // columnHeader7
-            // 
-            this.columnHeader7.Text = "Ürün Marka";
-            this.columnHeader7.Width = 160;
-            // 
-            // columnHeader8
-            // 
-            this.columnHeader8.Text = "Adet";
-            this.columnHeader8.Width = 100;
-            // 
-            // columnHeader9
-            // 
-            this.columnHeader9.Text = "Satış Fiyati";
-            this.columnHeader9.Width = 200;
-            // 
             // satısle
             // 
             this.satısle.AutoSize = true;
-            this.satısle.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.satısle.Location = new System.Drawing.Point(37, 11);
+            this.satısle.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.satısle.Location = new System.Drawing.Point(13, 9);
+            this.satısle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.satısle.Name = "satısle";
-            this.satısle.Size = new System.Drawing.Size(120, 21);
+            this.satısle.Size = new System.Drawing.Size(127, 23);
             this.satısle.TabIndex = 16;
             this.satısle.Text = "Satış işlemleri";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5});
+            this.dataGridView1.Location = new System.Drawing.Point(17, 49);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(804, 185);
+            this.dataGridView1.TabIndex = 32;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Barkod No";
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 200;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Ürün Adı";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Ürün Marka";
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 200;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Adet";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Satış Fiyat";
+            this.Column5.Name = "Column5";
+            this.Column5.Width = 200;
+            // 
             // SatisIslemleri
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(835, 512);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.cıkısYap);
             this.Controls.Add(this.odeme);
             this.Controls.Add(this.urunEkle);
@@ -259,10 +283,11 @@
             this.Controls.Add(this.fıyat);
             this.Controls.Add(this.topfıyat);
             this.Controls.Add(this.sil);
-            this.Controls.Add(this.listView1);
             this.Controls.Add(this.satısle);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "SatisIslemleri";
             this.Text = "SatisIslemleri";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -284,12 +309,12 @@
         private System.Windows.Forms.Label fıyat;
         private System.Windows.Forms.Label topfıyat;
         private System.Windows.Forms.Button sil;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ColumnHeader columnHeader6;
-        private System.Windows.Forms.ColumnHeader columnHeader7;
-        private System.Windows.Forms.ColumnHeader columnHeader8;
-        private System.Windows.Forms.ColumnHeader columnHeader9;
         private System.Windows.Forms.Label satısle;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
     }
 }

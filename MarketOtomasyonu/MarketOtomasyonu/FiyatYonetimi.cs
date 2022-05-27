@@ -66,5 +66,10 @@ namespace MarketOtomasyonu
             
             
         }
+
+        private void FiyatYonetimi_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

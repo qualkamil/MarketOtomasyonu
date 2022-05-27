@@ -36,16 +36,16 @@
             // yoneticipanel
             // 
             this.yoneticipanel.AutoSize = true;
-            this.yoneticipanel.Font = new System.Drawing.Font("Nirmala UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yoneticipanel.Location = new System.Drawing.Point(244, 22);
+            this.yoneticipanel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.yoneticipanel.Location = new System.Drawing.Point(322, 52);
             this.yoneticipanel.Name = "yoneticipanel";
-            this.yoneticipanel.Size = new System.Drawing.Size(254, 45);
+            this.yoneticipanel.Size = new System.Drawing.Size(143, 23);
             this.yoneticipanel.TabIndex = 0;
-            this.yoneticipanel.Text = "Yönetici paneli ";
+            this.yoneticipanel.Text = "Personel paneli ";
             // 
             // satisIslemleri
             // 
-            this.satisIslemleri.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.satisIslemleri.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.satisIslemleri.Location = new System.Drawing.Point(110, 194);
             this.satisIslemleri.Name = "satisIslemleri";
             this.satisIslemleri.Size = new System.Drawing.Size(230, 70);
@@ -55,7 +55,7 @@
             // 
             // cikisYap
             // 
-            this.cikisYap.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cikisYap.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cikisYap.Location = new System.Drawing.Point(474, 194);
             this.cikisYap.Name = "cikisYap";
             this.cikisYap.Size = new System.Drawing.Size(230, 70);

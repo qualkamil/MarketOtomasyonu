@@ -173,5 +173,25 @@ namespace MarketOtomasyonu
             sonEklenenAdet.Text = stokListe.Rows[e.RowIndex].Cells[5].Value.ToString();
             sonEklenennTarih.Text = stokListe.Rows[e.RowIndex].Cells[6].Value.ToString();
         }
+
+        private void BKN_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SKadedi_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void stokListe_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void stokMarka_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

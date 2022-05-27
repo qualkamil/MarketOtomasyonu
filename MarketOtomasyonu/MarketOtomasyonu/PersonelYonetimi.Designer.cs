@@ -40,60 +40,64 @@
             this.personelEkle = new System.Windows.Forms.Button();
             this.personelSil = new System.Windows.Forms.Button();
             this.guncelle = new System.Windows.Forms.Button();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // pyonetmek
             // 
             this.pyonetmek.AutoSize = true;
-            this.pyonetmek.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pyonetmek.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pyonetmek.Location = new System.Drawing.Point(3, 9);
             this.pyonetmek.Name = "pyonetmek";
-            this.pyonetmek.Size = new System.Drawing.Size(207, 31);
+            this.pyonetmek.Size = new System.Drawing.Size(162, 23);
             this.pyonetmek.TabIndex = 0;
             this.pyonetmek.Text = "Personel Yönetimi";
             // 
             // peklemek
             // 
             this.peklemek.AutoSize = true;
-            this.peklemek.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.peklemek.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.peklemek.Location = new System.Drawing.Point(12, 55);
             this.peklemek.Name = "peklemek";
-            this.peklemek.Size = new System.Drawing.Size(166, 28);
+            this.peklemek.Size = new System.Drawing.Size(148, 22);
             this.peklemek.TabIndex = 1;
             this.peklemek.Text = "Personel Ekleme";
             // 
             // kullaniciAdi
             // 
-            this.kullaniciAdi.Location = new System.Drawing.Point(181, 115);
+            this.kullaniciAdi.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kullaniciAdi.Location = new System.Drawing.Point(159, 111);
             this.kullaniciAdi.Name = "kullaniciAdi";
-            this.kullaniciAdi.Size = new System.Drawing.Size(162, 25);
+            this.kullaniciAdi.Size = new System.Drawing.Size(223, 28);
             this.kullaniciAdi.TabIndex = 2;
             // 
             // sifre
             // 
-            this.sifre.Location = new System.Drawing.Point(181, 171);
+            this.sifre.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.sifre.Location = new System.Drawing.Point(159, 171);
             this.sifre.Name = "sifre";
-            this.sifre.Size = new System.Drawing.Size(162, 25);
+            this.sifre.Size = new System.Drawing.Size(223, 28);
             this.sifre.TabIndex = 3;
             // 
             // adiSoyadi
             // 
-            this.adiSoyadi.Location = new System.Drawing.Point(181, 224);
+            this.adiSoyadi.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.adiSoyadi.Location = new System.Drawing.Point(159, 223);
             this.adiSoyadi.Name = "adiSoyadi";
-            this.adiSoyadi.Size = new System.Drawing.Size(162, 25);
+            this.adiSoyadi.Size = new System.Drawing.Size(223, 28);
             this.adiSoyadi.TabIndex = 4;
             // 
             // padı
             // 
             this.padı.AutoSize = true;
-            this.padı.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.padı.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.padı.Location = new System.Drawing.Point(19, 114);
             this.padı.Name = "padı";
-            this.padı.Size = new System.Drawing.Size(121, 23);
+            this.padı.Size = new System.Drawing.Size(125, 22);
             this.padı.TabIndex = 5;
             this.padı.Text = "Kullanıcı Adı :";
             this.padı.Click += new System.EventHandler(this.label3_Click);
@@ -101,10 +105,10 @@
             // psıfrar
             // 
             this.psıfrar.AutoSize = true;
-            this.psıfrar.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.psıfrar.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.psıfrar.Location = new System.Drawing.Point(19, 170);
             this.psıfrar.Name = "psıfrar";
-            this.psıfrar.Size = new System.Drawing.Size(60, 23);
+            this.psıfrar.Size = new System.Drawing.Size(59, 22);
             this.psıfrar.TabIndex = 6;
             this.psıfrar.Text = "Şifre :";
             this.psıfrar.Click += new System.EventHandler(this.label4_Click);
@@ -112,10 +116,10 @@
             // padsoyad
             // 
             this.padsoyad.AutoSize = true;
-            this.padsoyad.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.padsoyad.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.padsoyad.Location = new System.Drawing.Point(16, 226);
             this.padsoyad.Name = "padsoyad";
-            this.padsoyad.Size = new System.Drawing.Size(107, 23);
+            this.padsoyad.Size = new System.Drawing.Size(108, 22);
             this.padsoyad.TabIndex = 7;
             this.padsoyad.Text = "Adı Soyadı :";
             this.padsoyad.Click += new System.EventHandler(this.label5_Click);
@@ -123,7 +127,7 @@
             // cikisYap
             // 
             this.cikisYap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cikisYap.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cikisYap.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cikisYap.Location = new System.Drawing.Point(529, 108);
             this.cikisYap.Name = "cikisYap";
             this.cikisYap.Size = new System.Drawing.Size(227, 85);
@@ -135,8 +139,8 @@
             // personelEkle
             // 
             this.personelEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.personelEkle.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.personelEkle.Location = new System.Drawing.Point(181, 278);
+            this.personelEkle.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.personelEkle.Location = new System.Drawing.Point(159, 278);
             this.personelEkle.Name = "personelEkle";
             this.personelEkle.Size = new System.Drawing.Size(162, 51);
             this.personelEkle.TabIndex = 9;
@@ -147,8 +151,8 @@
             // personelSil
             // 
             this.personelSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.personelSil.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.personelSil.Location = new System.Drawing.Point(370, 278);
+            this.personelSil.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.personelSil.Location = new System.Drawing.Point(375, 278);
             this.personelSil.Name = "personelSil";
             this.personelSil.Size = new System.Drawing.Size(155, 51);
             this.personelSil.TabIndex = 10;
@@ -159,42 +163,44 @@
             // guncelle
             // 
             this.guncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.guncelle.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guncelle.Location = new System.Drawing.Point(545, 278);
+            this.guncelle.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guncelle.Location = new System.Drawing.Point(597, 278);
             this.guncelle.Name = "guncelle";
             this.guncelle.Size = new System.Drawing.Size(159, 51);
             this.guncelle.TabIndex = 11;
             this.guncelle.Text = "Güncelle";
             this.guncelle.UseVisualStyleBackColor = true;
             // 
-            // listView1
+            // dataGridView1
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3});
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(12, 349);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(776, 89);
-            this.listView1.TabIndex = 12;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3});
+            this.dataGridView1.Location = new System.Drawing.Point(7, 335);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(791, 112);
+            this.dataGridView1.TabIndex = 12;
             // 
-            // columnHeader1
+            // Column1
             // 
-            this.columnHeader1.Text = "Kullanıcı Adı";
-            this.columnHeader1.Width = 300;
+            this.Column1.HeaderText = "Kullanıcı Adı";
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 296;
             // 
-            // columnHeader2
+            // Column2
             // 
-            this.columnHeader2.Text = "Şifre";
-            this.columnHeader2.Width = 163;
+            this.Column2.HeaderText = "Şifre";
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 200;
             // 
-            // columnHeader3
+            // Column3
             // 
-            this.columnHeader3.Text = "Adı Soyadı";
-            this.columnHeader3.Width = 300;
+            this.Column3.HeaderText = "Adı Soyadı";
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 295;
             // 
             // PersonelYonetimi
             // 
@@ -202,7 +208,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.guncelle);
             this.Controls.Add(this.personelSil);
             this.Controls.Add(this.personelEkle);
@@ -220,6 +226,7 @@
             this.Name = "PersonelYonetimi";
             this.Text = "PersonelYonetimi";
             this.Load += new System.EventHandler(this.PersonelYonetimi_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -239,9 +246,9 @@
         private System.Windows.Forms.Button personelEkle;
         private System.Windows.Forms.Button personelSil;
         private System.Windows.Forms.Button guncelle;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
     }
 }
