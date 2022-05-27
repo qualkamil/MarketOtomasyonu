@@ -37,6 +37,7 @@ namespace MarketOtomasyonu
 
         SqlConnection conn = new SqlConnection("Data Source=DESKTOP-BKPBS63\\SQLEXPRESS;Initial Catalog=MarketOtomasyonu;Integrated Security=True");
 
+        //Yonetici Paneline Dönme
         private void cikisYap_Click(object sender, EventArgs e)
         {
 
@@ -44,30 +45,54 @@ namespace MarketOtomasyonu
             this.Hide();
             yoneticiPaneli.Show();
         }
+        
 
+        //Stok Ekleme
         private void stokEkle_Click(object sender, EventArgs e)
         {
-            conn.Close();
-            conn.Open();
-            string sorgu = "insert into Stok(BarkodNo,StokAd,StokMarka,StokAdet,SonAlinanBirimFiyat,SonEklenenAdet,SonEklenenTarih) " + //
-                "values('" + barkodNo.Text + "','" + stokAdi.Text + "','" + stokMarka.Text + "','" + stokAdet.Text+"','"+ birimFiyat.Text + "','" + sonEklenenAdet.Text +"','"+sonEklenennTarih.Text.ToString()+"')";
-            cmd = new SqlCommand(sorgu, conn);
-            cmd.ExecuteNonQuery();
-            conn.Close();
-            MessageBox.Show(barkodNo.Text + " barkod numralı " + stokAdi.Text + "başarıyla kaydedildi.");
+            try
+            {
+                conn.Close();
+                conn.Open();
+                string stokSorgu = "insert into Stok(BarkodNo,StokAd,StokMarka,StokAdet,SonAlinanBirimFiyat,SonEklenenAdet,SonEklenenTarih) " +
+                    "values('" + barkodNo.Text + "','" + stokAdi.Text + "','" + stokMarka.Text + "','" + stokAdet.Text + "','" + birimFiyat.Text + "','"
+                    + sonEklenenAdet.Text + "','" + sonEklenennTarih.Text.ToString() + "')";
+                string fiyatSorgu = "insert into Fiyatlar(BarkodNo,StokAd)values('" + barkodNo.Text + "','" + stokAdi.Text + "')";
+                SqlCommand stokCmd = new SqlCommand(stokSorgu, conn);
+                SqlCommand fiyatCmd = new SqlCommand(fiyatSorgu, conn);
+                stokCmd.ExecuteNonQuery();
+                conn.Close();
+                conn.Open();
+                fiyatCmd.ExecuteNonQuery();
 
+                conn.Close();
+                MessageBox.Show(barkodNo.Text + " barkod numralı " + stokAdi.Text + " başarıyla kaydedildi.");
+            }
+            catch(Exception)
+            {
+                MessageBox.Show(barkodNo.Text + " barkod numaralı kayıt zaten var.");
+                throw;
+            }
+            
         }
+
+       
         
+
+        //Form Load sırasında datagridview veri çekme
         private void StokTakibi_Load(object sender, EventArgs e)
         {
             listeleme();
         }
 
+        //buton ile datagridview veri çekme
         private void listele_Click(object sender, EventArgs e)
         {
             listeleme();
         }
 
+
+        //Barkod no ile arama
         private void barkodArama_Click(object sender, EventArgs e)
         {
             conn.Close();
@@ -80,20 +105,29 @@ namespace MarketOtomasyonu
             conn.Close();
         }
 
+
+        //stok silme
         private void stokSil_Click(object sender, EventArgs e)
         {
             conn.Close();
             conn.Open();
             int BarkodNo = Convert.ToInt32(stokListe.SelectedCells[0].Value);
             MessageBox.Show(Convert.ToString(BarkodNo));
-            string sorgu = "Delete From Stok where BarkodNo = '"+BarkodNo+"'";
-            cmd = new SqlCommand(sorgu, conn);
+            string stokSorgu = "Delete From Stok where BarkodNo = '"+BarkodNo+"'";
+            string fiyatSorgu = "Delete From Fiyatlar where BarkodNo = '" + BarkodNo + "'";
+            cmd = new SqlCommand(stokSorgu, conn);
             cmd.Parameters.AddWithValue("@BarkodNo", BarkodNo);
+            cmd.ExecuteNonQuery();
+            conn.Close();
+            conn.Open();
+            cmd = new SqlCommand(fiyatSorgu, conn);
             cmd.ExecuteNonQuery();
             conn.Close();
             listeleme();
         }
 
+
+        //Stokno ile arama
         private void StokAdArama_Click(object sender, EventArgs e)
         {
             conn.Close();
@@ -106,6 +140,8 @@ namespace MarketOtomasyonu
             conn.Close();
         }
 
+
+        //Stok Güncelleme
         private void button4_Click(object sender, EventArgs e)
         {
             conn.Close();
@@ -125,6 +161,8 @@ namespace MarketOtomasyonu
             listeleme();
         }
 
+
+        //Datagridview'deki verileri textbox ekleme
         private void stokListe_RowEnter(object sender, DataGridViewCellEventArgs e)
         {
             barkodNo.Text = stokListe.Rows[e.RowIndex].Cells[0].Value.ToString();

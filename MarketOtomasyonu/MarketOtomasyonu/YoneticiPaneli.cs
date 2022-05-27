@@ -22,5 +22,12 @@ namespace MarketOtomasyonu
             this.Hide();
             stokTakip.Show();
         }
+
+        private void fiyetYönetimi_Click(object sender, EventArgs e)
+        {
+            FiyatYonetimi fiyatYonetimi = new FiyatYonetimi();
+            this.Hide();
+            fiyatYonetimi.Show();
+        }
     }
 }
