@@ -29,5 +29,12 @@ namespace MarketOtomasyonu
             this.Hide();
             fiyatYonetimi.Show();
         }
+
+        private void gelirGiderKontrolu_Click(object sender, EventArgs e)
+        {
+            GelirGiderKontrolu gelirGiderKontrolu = new GelirGiderKontrolu();
+            this.Hide();
+            gelirGiderKontrolu.Show();
+        }
     }
 }

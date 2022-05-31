@@ -56,13 +56,6 @@
             this.button4 = new System.Windows.Forms.Button();
             this.listele = new System.Windows.Forms.Button();
             this.stokListe = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.stokListe)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,9 +63,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, -1);
+            this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 23);
+            this.label1.Size = new System.Drawing.Size(86, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Stok Takibi";
             // 
@@ -80,9 +73,9 @@
             // 
             this.BKN.AutoSize = true;
             this.BKN.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BKN.Location = new System.Drawing.Point(2, 28);
+            this.BKN.Location = new System.Drawing.Point(4, 30);
             this.BKN.Name = "BKN";
-            this.BKN.Size = new System.Drawing.Size(111, 22);
+            this.BKN.Size = new System.Drawing.Size(89, 17);
             this.BKN.TabIndex = 1;
             this.BKN.Text = "Barkod No :";
             this.BKN.Click += new System.EventHandler(this.BKN_Click);
@@ -91,9 +84,9 @@
             // 
             this.SKadı.AutoSize = true;
             this.SKadı.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SKadı.Location = new System.Drawing.Point(12, 58);
+            this.SKadı.Location = new System.Drawing.Point(4, 55);
             this.SKadı.Name = "SKadı";
-            this.SKadı.Size = new System.Drawing.Size(90, 22);
+            this.SKadı.Size = new System.Drawing.Size(73, 17);
             this.SKadı.TabIndex = 2;
             this.SKadı.Text = "Stok Adı :";
             // 
@@ -101,9 +94,9 @@
             // 
             this.Skm.AutoSize = true;
             this.Skm.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Skm.Location = new System.Drawing.Point(3, 97);
+            this.Skm.Location = new System.Drawing.Point(4, 80);
             this.Skm.Name = "Skm";
-            this.Skm.Size = new System.Drawing.Size(120, 22);
+            this.Skm.Size = new System.Drawing.Size(95, 17);
             this.Skm.TabIndex = 3;
             this.Skm.Text = "Stok Marka :";
             // 
@@ -111,9 +104,9 @@
             // 
             this.SKadedi.AutoSize = true;
             this.SKadedi.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SKadedi.Location = new System.Drawing.Point(0, 138);
+            this.SKadedi.Location = new System.Drawing.Point(4, 105);
             this.SKadedi.Name = "SKadedi";
-            this.SKadedi.Size = new System.Drawing.Size(109, 22);
+            this.SKadedi.Size = new System.Drawing.Size(89, 17);
             this.SKadedi.TabIndex = 4;
             this.SKadedi.Text = "Stok Adedi :";
             this.SKadedi.Click += new System.EventHandler(this.SKadedi_Click);
@@ -122,9 +115,9 @@
             // 
             this.sonfıyat.AutoSize = true;
             this.sonfıyat.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sonfıyat.Location = new System.Drawing.Point(0, 176);
+            this.sonfıyat.Location = new System.Drawing.Point(4, 130);
             this.sonfıyat.Name = "sonfıyat";
-            this.sonfıyat.Size = new System.Drawing.Size(206, 22);
+            this.sonfıyat.Size = new System.Drawing.Size(163, 17);
             this.sonfıyat.TabIndex = 5;
             this.sonfıyat.Text = "Son Alınan Birim Fiyat :";
             // 
@@ -132,9 +125,9 @@
             // 
             this.sonadet.AutoSize = true;
             this.sonadet.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sonadet.Location = new System.Drawing.Point(0, 205);
+            this.sonadet.Location = new System.Drawing.Point(4, 155);
             this.sonadet.Name = "sonadet";
-            this.sonadet.Size = new System.Drawing.Size(165, 22);
+            this.sonadet.Size = new System.Drawing.Size(135, 17);
             this.sonadet.TabIndex = 6;
             this.sonadet.Text = "Son Eklenen Adet :";
             // 
@@ -142,85 +135,85 @@
             // 
             this.sontarihi.AutoSize = true;
             this.sontarihi.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sontarihi.Location = new System.Drawing.Point(3, 233);
+            this.sontarihi.Location = new System.Drawing.Point(3, 180);
             this.sontarihi.Name = "sontarihi";
-            this.sontarihi.Size = new System.Drawing.Size(172, 22);
+            this.sontarihi.Size = new System.Drawing.Size(138, 17);
             this.sontarihi.TabIndex = 7;
             this.sontarihi.Text = "Son Eklenen Tarih :";
             // 
             // barkodNo
             // 
-            this.barkodNo.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barkodNo.Location = new System.Drawing.Point(214, 26);
+            this.barkodNo.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold);
+            this.barkodNo.Location = new System.Drawing.Point(208, 30);
             this.barkodNo.Name = "barkodNo";
-            this.barkodNo.Size = new System.Drawing.Size(194, 26);
+            this.barkodNo.Size = new System.Drawing.Size(194, 24);
             this.barkodNo.TabIndex = 8;
             // 
             // stokAdi
             // 
             this.stokAdi.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stokAdi.Location = new System.Drawing.Point(214, 64);
+            this.stokAdi.Location = new System.Drawing.Point(208, 55);
             this.stokAdi.Name = "stokAdi";
-            this.stokAdi.Size = new System.Drawing.Size(194, 28);
+            this.stokAdi.Size = new System.Drawing.Size(194, 24);
             this.stokAdi.TabIndex = 9;
             // 
             // stokMarka
             // 
             this.stokMarka.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.stokMarka.Location = new System.Drawing.Point(214, 97);
+            this.stokMarka.Location = new System.Drawing.Point(208, 80);
             this.stokMarka.Name = "stokMarka";
-            this.stokMarka.Size = new System.Drawing.Size(194, 28);
+            this.stokMarka.Size = new System.Drawing.Size(194, 24);
             this.stokMarka.TabIndex = 10;
             this.stokMarka.TextChanged += new System.EventHandler(this.stokMarka_TextChanged);
             // 
             // stokAdet
             // 
             this.stokAdet.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.stokAdet.Location = new System.Drawing.Point(214, 138);
+            this.stokAdet.Location = new System.Drawing.Point(208, 105);
             this.stokAdet.Name = "stokAdet";
-            this.stokAdet.Size = new System.Drawing.Size(194, 28);
+            this.stokAdet.Size = new System.Drawing.Size(194, 24);
             this.stokAdet.TabIndex = 11;
             // 
             // birimFiyat
             // 
             this.birimFiyat.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.birimFiyat.Location = new System.Drawing.Point(214, 172);
+            this.birimFiyat.Location = new System.Drawing.Point(208, 130);
             this.birimFiyat.Name = "birimFiyat";
-            this.birimFiyat.Size = new System.Drawing.Size(194, 28);
+            this.birimFiyat.Size = new System.Drawing.Size(194, 24);
             this.birimFiyat.TabIndex = 12;
             // 
             // sonEklenenAdet
             // 
             this.sonEklenenAdet.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.sonEklenenAdet.Location = new System.Drawing.Point(214, 203);
+            this.sonEklenenAdet.Location = new System.Drawing.Point(208, 155);
             this.sonEklenenAdet.Name = "sonEklenenAdet";
-            this.sonEklenenAdet.Size = new System.Drawing.Size(194, 28);
+            this.sonEklenenAdet.Size = new System.Drawing.Size(194, 24);
             this.sonEklenenAdet.TabIndex = 13;
             // 
             // sonEklenennTarih
             // 
             this.sonEklenennTarih.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.sonEklenennTarih.Location = new System.Drawing.Point(214, 237);
+            this.sonEklenennTarih.Location = new System.Drawing.Point(208, 180);
             this.sonEklenennTarih.Name = "sonEklenennTarih";
-            this.sonEklenennTarih.Size = new System.Drawing.Size(194, 28);
+            this.sonEklenennTarih.Size = new System.Drawing.Size(194, 24);
             this.sonEklenennTarih.TabIndex = 14;
             // 
             // BKNarama
             // 
             this.BKNarama.AutoSize = true;
             this.BKNarama.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BKNarama.Location = new System.Drawing.Point(543, 26);
+            this.BKNarama.Location = new System.Drawing.Point(523, 35);
             this.BKNarama.Name = "BKNarama";
-            this.BKNarama.Size = new System.Drawing.Size(185, 22);
+            this.BKNarama.Size = new System.Drawing.Size(146, 17);
             this.BKNarama.TabIndex = 15;
             this.BKNarama.Text = "Barkod No ile Arama";
             // 
             // barkodNoArama
             // 
             this.barkodNoArama.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.barkodNoArama.Location = new System.Drawing.Point(547, 55);
+            this.barkodNoArama.Location = new System.Drawing.Point(526, 55);
             this.barkodNoArama.Name = "barkodNoArama";
-            this.barkodNoArama.Size = new System.Drawing.Size(165, 28);
+            this.barkodNoArama.Size = new System.Drawing.Size(165, 24);
             this.barkodNoArama.TabIndex = 16;
             // 
             // label2
@@ -228,13 +221,13 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(543, 324);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 20);
+            this.label2.Size = new System.Drawing.Size(0, 15);
             this.label2.TabIndex = 17;
             // 
             // barkodArama
             // 
             this.barkodArama.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.barkodArama.Location = new System.Drawing.Point(562, 97);
+            this.barkodArama.Location = new System.Drawing.Point(526, 86);
             this.barkodArama.Name = "barkodArama";
             this.barkodArama.Size = new System.Drawing.Size(135, 48);
             this.barkodArama.TabIndex = 18;
@@ -246,24 +239,24 @@
             // 
             this.SKadıaramak.AutoSize = true;
             this.SKadıaramak.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.SKadıaramak.Location = new System.Drawing.Point(543, 170);
+            this.SKadıaramak.Location = new System.Drawing.Point(523, 142);
             this.SKadıaramak.Name = "SKadıaramak";
-            this.SKadıaramak.Size = new System.Drawing.Size(164, 22);
+            this.SKadıaramak.Size = new System.Drawing.Size(130, 17);
             this.SKadıaramak.TabIndex = 19;
             this.SKadıaramak.Text = "Stok Adı ile Arama";
             // 
             // stokAdiArama
             // 
             this.stokAdiArama.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.stokAdiArama.Location = new System.Drawing.Point(547, 195);
+            this.stokAdiArama.Location = new System.Drawing.Point(526, 162);
             this.stokAdiArama.Name = "stokAdiArama";
-            this.stokAdiArama.Size = new System.Drawing.Size(165, 28);
+            this.stokAdiArama.Size = new System.Drawing.Size(165, 24);
             this.stokAdiArama.TabIndex = 20;
             // 
             // StokAdArama
             // 
             this.StokAdArama.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.StokAdArama.Location = new System.Drawing.Point(562, 259);
+            this.StokAdArama.Location = new System.Drawing.Point(526, 192);
             this.StokAdArama.Name = "StokAdArama";
             this.StokAdArama.Size = new System.Drawing.Size(142, 64);
             this.StokAdArama.TabIndex = 21;
@@ -274,7 +267,7 @@
             // cikisYap
             // 
             this.cikisYap.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cikisYap.Location = new System.Drawing.Point(765, 28);
+            this.cikisYap.Location = new System.Drawing.Point(789, 43);
             this.cikisYap.Name = "cikisYap";
             this.cikisYap.Size = new System.Drawing.Size(164, 63);
             this.cikisYap.TabIndex = 22;
@@ -285,7 +278,7 @@
             // stokEkle
             // 
             this.stokEkle.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stokEkle.Location = new System.Drawing.Point(16, 276);
+            this.stokEkle.Location = new System.Drawing.Point(6, 209);
             this.stokEkle.Name = "stokEkle";
             this.stokEkle.Size = new System.Drawing.Size(136, 47);
             this.stokEkle.TabIndex = 23;
@@ -296,7 +289,7 @@
             // stokSil
             // 
             this.stokSil.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stokSil.Location = new System.Drawing.Point(198, 276);
+            this.stokSil.Location = new System.Drawing.Point(157, 210);
             this.stokSil.Name = "stokSil";
             this.stokSil.Size = new System.Drawing.Size(115, 47);
             this.stokSil.TabIndex = 24;
@@ -307,7 +300,7 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(349, 276);
+            this.button4.Location = new System.Drawing.Point(294, 210);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(108, 47);
             this.button4.TabIndex = 25;
@@ -318,7 +311,7 @@
             // listele
             // 
             this.listele.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.listele.Location = new System.Drawing.Point(765, 264);
+            this.listele.Location = new System.Drawing.Point(780, 197);
             this.listele.Name = "listele";
             this.listele.Size = new System.Drawing.Size(164, 59);
             this.listele.TabIndex = 27;
@@ -329,68 +322,19 @@
             // stokListe
             // 
             this.stokListe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.stokListe.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6,
-            this.Column7});
-            this.stokListe.Location = new System.Drawing.Point(-1, 324);
+            this.stokListe.Location = new System.Drawing.Point(7, 263);
             this.stokListe.Name = "stokListe";
-            this.stokListe.Size = new System.Drawing.Size(964, 141);
+            this.stokListe.Size = new System.Drawing.Size(946, 340);
             this.stokListe.TabIndex = 28;
             this.stokListe.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.stokListe_CellContentClick);
             this.stokListe.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.stokListe_RowEnter);
             // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Barkod";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Stok Adı";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 95;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Stok Marka";
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 120;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Stok Adedi";
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 120;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Son Alınan Birim Fiyat";
-            this.Column5.Name = "Column5";
-            this.Column5.Width = 195;
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Son Eklenen Adet";
-            this.Column6.Name = "Column6";
-            this.Column6.Width = 160;
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "Son Eklenen Tarih";
-            this.Column7.Name = "Column7";
-            this.Column7.Width = 160;
-            // 
             // StokTakibi
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(962, 461);
+            this.ClientSize = new System.Drawing.Size(965, 615);
             this.Controls.Add(this.stokListe);
             this.Controls.Add(this.listele);
             this.Controls.Add(this.button4);
@@ -460,12 +404,5 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button listele;
         private System.Windows.Forms.DataGridView stokListe;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
     }
 }

@@ -23,7 +23,6 @@ C:\Users\kamil\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyo
 C:\Users\kamil\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\MarketOtomasyonu.pdb
 C:\Users\kamil\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.csprojAssemblyReference.cache
 C:\Users\kamil\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.FiyatYonetimi.resources
-C:\Users\kamil\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.GelirGiderKontrolü.resources
 C:\Users\kamil\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.MarketOtomasyonu.resources
 C:\Users\kamil\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.PersonelGirisPaneli.resources
 C:\Users\kamil\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.PersonelPaneli.resources
@@ -37,3 +36,4 @@ C:\Users\kamil\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyo
 C:\Users\kamil\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.pdb
 C:\Users\kamil\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.SatisIslemleri.resources
 C:\Users\kamil\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.StokTakibi.resources
+C:\Users\kamil\Documents\GitHub\MarketOtomasyonu\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\MarketOtomasyonu.GelirGiderKontrolu.resources

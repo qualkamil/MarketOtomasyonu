@@ -54,11 +54,11 @@
     <Compile Include="FiyatYonetimi.Designer.cs">
       <DependentUpon>FiyatYonetimi.cs</DependentUpon>
     </Compile>
-    <Compile Include="GelirGiderKontrolü.cs">
+    <Compile Include="GelirGiderKontrolu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GelirGiderKontrolü.Designer.cs">
-      <DependentUpon>GelirGiderKontrolü.cs</DependentUpon>
+      <DependentUpon>GelirGiderKontrolu.cs</DependentUpon>
     </Compile>
     <Compile Include="MarketOtomasyonu.cs">
       <SubType>Form</SubType>
@@ -72,11 +72,11 @@
     <Compile Include="PersonelGirisPaneli.Designer.cs">
       <DependentUpon>PersonelGirisPaneli.cs</DependentUpon>
     </Compile>
-    <Compile Include="Personelpaneli.cs">
+    <Compile Include="PersonelPaneli.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Personelpaneli.Designer.cs">
-      <DependentUpon>Personelpaneli.cs</DependentUpon>
+    <Compile Include="PersonelPaneli.Designer.cs">
+      <DependentUpon>PersonelPaneli.cs</DependentUpon>
     </Compile>
     <Compile Include="PersonelYonetimi.cs">
       <SubType>Form</SubType>
@@ -113,8 +113,8 @@
     <EmbeddedResource Include="FiyatYonetimi.resx">
       <DependentUpon>FiyatYonetimi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GelirGiderKontrolü.resx">
-      <DependentUpon>GelirGiderKontrolü.cs</DependentUpon>
+    <EmbeddedResource Include="GelirGiderKontrolu.resx">
+      <DependentUpon>GelirGiderKontrolu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MarketOtomasyonu.resx">
       <DependentUpon>MarketOtomasyonu.cs</DependentUpon>
@@ -122,8 +122,8 @@
     <EmbeddedResource Include="PersonelGirisPaneli.resx">
       <DependentUpon>PersonelGirisPaneli.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Personelpaneli.resx">
-      <DependentUpon>Personelpaneli.cs</DependentUpon>
+    <EmbeddedResource Include="PersonelPaneli.resx">
+      <DependentUpon>PersonelPaneli.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PersonelYonetimi.resx">
       <DependentUpon>PersonelYonetimi.cs</DependentUpon>

@@ -1,6 +1,6 @@
 ﻿namespace MarketOtomasyonu
 {
-    partial class GelirGiderKontrolü
+    partial class GelirGiderKontrolu
     {
         /// <summary>
         /// Required designer variable.
@@ -38,16 +38,9 @@
             this.gider = new System.Windows.Forms.ComboBox();
             this.eklemeTarih = new System.Windows.Forms.ComboBox();
             this.giderekle = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.gelirGiderListe = new System.Windows.Forms.DataGridView();
+            this.yillikGoruntule = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.gelirGiderListe)).BeginInit();
             this.SuspendLayout();
             // 
             // GGK
@@ -56,179 +49,138 @@
             this.GGK.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GGK.Location = new System.Drawing.Point(13, 10);
             this.GGK.Name = "GGK";
-            this.GGK.Size = new System.Drawing.Size(188, 23);
+            this.GGK.Size = new System.Drawing.Size(148, 19);
             this.GGK.TabIndex = 0;
             this.GGK.Text = "Gelir Gider Kontrolü";
-            this.GGK.Click += new System.EventHandler(this.label1_Click);
             // 
             // giderek
             // 
             this.giderek.AutoSize = true;
             this.giderek.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.giderek.Location = new System.Drawing.Point(13, 57);
+            this.giderek.Location = new System.Drawing.Point(4, 50);
             this.giderek.Name = "giderek";
-            this.giderek.Size = new System.Drawing.Size(124, 22);
+            this.giderek.Size = new System.Drawing.Size(137, 17);
             this.giderek.TabIndex = 1;
-            this.giderek.Text = "Gider Ekleme";
-            this.giderek.Click += new System.EventHandler(this.label2_Click);
+            this.giderek.Text = "Gelir-Gider Ekleme";
             // 
             // GGgğr
             // 
             this.GGgğr.AutoSize = true;
             this.GGgğr.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GGgğr.Location = new System.Drawing.Point(269, 27);
+            this.GGgğr.Location = new System.Drawing.Point(338, 49);
             this.GGgğr.Name = "GGgğr";
-            this.GGgğr.Size = new System.Drawing.Size(227, 22);
+            this.GGgğr.Size = new System.Drawing.Size(181, 17);
             this.GGgğr.TabIndex = 2;
             this.GGgğr.Text = "Gelir - Gider Görüntüleme";
             // 
             // giderTutari
             // 
             this.giderTutari.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.giderTutari.Location = new System.Drawing.Point(11, 177);
+            this.giderTutari.Location = new System.Drawing.Point(4, 145);
             this.giderTutari.Name = "giderTutari";
-            this.giderTutari.Size = new System.Drawing.Size(201, 28);
+            this.giderTutari.Size = new System.Drawing.Size(201, 24);
             this.giderTutari.TabIndex = 3;
-            this.giderTutari.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.giderTutari.Text = "Tutar Giriniz";
             // 
             // goruntule
             // 
             this.goruntule.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goruntule.Location = new System.Drawing.Point(325, 122);
+            this.goruntule.Location = new System.Drawing.Point(341, 110);
             this.goruntule.Name = "goruntule";
             this.goruntule.Size = new System.Drawing.Size(171, 58);
             this.goruntule.TabIndex = 4;
             this.goruntule.Text = "Görüntüle";
             this.goruntule.UseVisualStyleBackColor = true;
-            this.goruntule.Click += new System.EventHandler(this.cıkısYap_Click);
+            this.goruntule.Click += new System.EventHandler(this.goruntule_Click);
             // 
             // cikisYap
             // 
             this.cikisYap.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cikisYap.Location = new System.Drawing.Point(565, 52);
+            this.cikisYap.Location = new System.Drawing.Point(671, 50);
             this.cikisYap.Name = "cikisYap";
             this.cikisYap.Size = new System.Drawing.Size(186, 65);
             this.cikisYap.TabIndex = 5;
             this.cikisYap.Text = "Yönetici Paneline Dön";
             this.cikisYap.UseVisualStyleBackColor = true;
+            this.cikisYap.Click += new System.EventHandler(this.cikisYap_Click);
             // 
             // goruntulemeTarih
             // 
             this.goruntulemeTarih.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.goruntulemeTarih.FormattingEnabled = true;
-            this.goruntulemeTarih.Location = new System.Drawing.Point(311, 71);
+            this.goruntulemeTarih.Location = new System.Drawing.Point(341, 74);
             this.goruntulemeTarih.Name = "goruntulemeTarih";
-            this.goruntulemeTarih.Size = new System.Drawing.Size(185, 28);
+            this.goruntulemeTarih.Size = new System.Drawing.Size(185, 25);
             this.goruntulemeTarih.TabIndex = 7;
-            this.goruntulemeTarih.Text = "Tarih Seşiniz";
-            this.goruntulemeTarih.SelectedIndexChanged += new System.EventHandler(this.goruntuleme_SelectedIndexChanged);
+            this.goruntulemeTarih.Text = "Tarih Seçiniz";
             // 
             // gider
             // 
             this.gider.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gider.FormattingEnabled = true;
-            this.gider.Location = new System.Drawing.Point(11, 89);
+            this.gider.Items.AddRange(new object[] {
+            "UrunGiderleri",
+            "PersonelGiderleri",
+            "Elektrik",
+            "Su",
+            "Dogalgaz",
+            "Vergiler",
+            "Gelir"});
+            this.gider.Location = new System.Drawing.Point(4, 75);
             this.gider.Name = "gider";
-            this.gider.Size = new System.Drawing.Size(201, 28);
+            this.gider.Size = new System.Drawing.Size(201, 25);
             this.gider.TabIndex = 8;
             this.gider.Text = "Gider Seçiniz";
-            this.gider.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // eklemeTarih
             // 
             this.eklemeTarih.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eklemeTarih.FormattingEnabled = true;
-            this.eklemeTarih.Location = new System.Drawing.Point(11, 133);
+            this.eklemeTarih.Location = new System.Drawing.Point(4, 110);
             this.eklemeTarih.Name = "eklemeTarih";
-            this.eklemeTarih.Size = new System.Drawing.Size(201, 28);
+            this.eklemeTarih.Size = new System.Drawing.Size(201, 25);
             this.eklemeTarih.TabIndex = 9;
             this.eklemeTarih.Text = "Tarih Seçiniz";
-            this.eklemeTarih.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
             // giderekle
             // 
             this.giderekle.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.giderekle.Location = new System.Drawing.Point(17, 225);
+            this.giderekle.Location = new System.Drawing.Point(4, 174);
             this.giderekle.Margin = new System.Windows.Forms.Padding(2);
             this.giderekle.Name = "giderekle";
             this.giderekle.Size = new System.Drawing.Size(176, 56);
             this.giderekle.TabIndex = 11;
             this.giderekle.Text = "Gider Ekle ";
             this.giderekle.UseVisualStyleBackColor = true;
+            this.giderekle.Click += new System.EventHandler(this.giderekle_Click);
             // 
-            // dataGridView1
+            // gelirGiderListe
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column7,
-            this.Column8,
-            this.Column9});
-            this.dataGridView1.Location = new System.Drawing.Point(-1, 305);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(801, 145);
-            this.dataGridView1.TabIndex = 12;
+            this.gelirGiderListe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gelirGiderListe.Location = new System.Drawing.Point(4, 235);
+            this.gelirGiderListe.Name = "gelirGiderListe";
+            this.gelirGiderListe.RowTemplate.Height = 24;
+            this.gelirGiderListe.Size = new System.Drawing.Size(853, 263);
+            this.gelirGiderListe.TabIndex = 12;
             // 
-            // Column1
+            // yillikGoruntule
             // 
-            this.Column1.HeaderText = "Tarih";
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 110;
+            this.yillikGoruntule.Location = new System.Drawing.Point(674, 171);
+            this.yillikGoruntule.Name = "yillikGoruntule";
+            this.yillikGoruntule.Size = new System.Drawing.Size(183, 58);
+            this.yillikGoruntule.TabIndex = 13;
+            this.yillikGoruntule.Text = "Tüm Listeyi Görüntüle";
+            this.yillikGoruntule.UseVisualStyleBackColor = true;
+            this.yillikGoruntule.Click += new System.EventHandler(this.yillikGoruntule_Click);
             // 
-            // Column2
+            // GelirGiderKontrolu
             // 
-            this.Column2.HeaderText = "Ürün Giderleri";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 155;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Personel Giderleri";
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 165;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Elektrik";
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 70;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Su";
-            this.Column5.Name = "Column5";
-            this.Column5.Width = 60;
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "Doğalgaz";
-            this.Column7.Name = "Column7";
-            this.Column7.Width = 80;
-            // 
-            // Column8
-            // 
-            this.Column8.HeaderText = "Vergiler";
-            this.Column8.Name = "Column8";
-            this.Column8.Width = 70;
-            // 
-            // Column9
-            // 
-            this.Column9.HeaderText = "Gelir";
-            this.Column9.Name = "Column9";
-            this.Column9.Width = 60;
-            // 
-            // GelirGiderKontrolü
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(869, 510);
+            this.Controls.Add(this.yillikGoruntule);
+            this.Controls.Add(this.gelirGiderListe);
             this.Controls.Add(this.giderekle);
             this.Controls.Add(this.eklemeTarih);
             this.Controls.Add(this.gider);
@@ -241,10 +193,10 @@
             this.Controls.Add(this.GGK);
             this.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Name = "GelirGiderKontrolü";
+            this.Name = "GelirGiderKontrolu";
             this.Text = "GelirGiderKontrolü";
-            this.Load += new System.EventHandler(this.GelirGiderKontrolü_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.GelirGiderKontrolu_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.gelirGiderListe)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -262,14 +214,7 @@
         private System.Windows.Forms.ComboBox gider;
         private System.Windows.Forms.ComboBox eklemeTarih;
         private System.Windows.Forms.Button giderekle;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
+        private System.Windows.Forms.DataGridView gelirGiderListe;
+        private System.Windows.Forms.Button yillikGoruntule;
     }
 }
