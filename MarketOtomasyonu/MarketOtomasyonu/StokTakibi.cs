@@ -67,6 +67,7 @@ namespace MarketOtomasyonu
 
                 conn.Close();
                 MessageBox.Show(barkodNo.Text + " barkod numralı " + stokAdi.Text + " başarıyla kaydedildi.");
+                listeleme();
             }
             catch(Exception)
             {
@@ -109,21 +110,25 @@ namespace MarketOtomasyonu
         //stok silme
         private void stokSil_Click(object sender, EventArgs e)
         {
-            conn.Close();
-            conn.Open();
-            int BarkodNo = Convert.ToInt32(stokListe.SelectedCells[0].Value);
-            MessageBox.Show(Convert.ToString(BarkodNo));
-            string stokSorgu = "Delete From Stok where BarkodNo = '"+BarkodNo+"'";
-            string fiyatSorgu = "Delete From Fiyatlar where BarkodNo = '" + BarkodNo + "'";
-            cmd = new SqlCommand(stokSorgu, conn);
-            cmd.Parameters.AddWithValue("@BarkodNo", BarkodNo);
-            cmd.ExecuteNonQuery();
-            conn.Close();
-            conn.Open();
-            cmd = new SqlCommand(fiyatSorgu, conn);
-            cmd.ExecuteNonQuery();
-            conn.Close();
-            listeleme();
+            try
+            {
+                conn.Close();
+                conn.Open();
+                int BarkodNo = Convert.ToInt32(stokListe.SelectedCells[0].Value);
+                string stokSorgu = "Delete From Stok where BarkodNo = '" + BarkodNo + "'";
+                string fiyatSorgu = "Delete From Fiyatlar where BarkodNo = '" + BarkodNo + "'";
+                cmd = new SqlCommand(stokSorgu, conn);
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                conn.Open();
+                cmd = new SqlCommand(fiyatSorgu, conn);
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                listeleme();
+            }catch(Exception)
+            {
+                MessageBox.Show("Silme istediğiniz kaydın Barkod Numarasını Seçiniz.");
+            }
         }
 
 
@@ -165,13 +170,20 @@ namespace MarketOtomasyonu
         //Datagridview'deki verileri textbox ekleme
         private void stokListe_RowEnter(object sender, DataGridViewCellEventArgs e)
         {
-            barkodNo.Text = stokListe.Rows[e.RowIndex].Cells[0].Value.ToString();
-            stokAdi.Text = stokListe.Rows[e.RowIndex].Cells[1].Value.ToString();
-            stokMarka.Text = stokListe.Rows[e.RowIndex].Cells[2].Value.ToString();
-            stokAdet.Text = stokListe.Rows[e.RowIndex].Cells[3].Value.ToString();
-            birimFiyat.Text = stokListe.Rows[e.RowIndex].Cells[4].Value.ToString();
-            sonEklenenAdet.Text = stokListe.Rows[e.RowIndex].Cells[5].Value.ToString();
-            sonEklenennTarih.Text = stokListe.Rows[e.RowIndex].Cells[6].Value.ToString();
+            try
+            {
+                barkodNo.Text = stokListe.Rows[e.RowIndex].Cells[0].Value.ToString();
+                stokAdi.Text = stokListe.Rows[e.RowIndex].Cells[1].Value.ToString();
+                stokMarka.Text = stokListe.Rows[e.RowIndex].Cells[2].Value.ToString();
+                stokAdet.Text = stokListe.Rows[e.RowIndex].Cells[3].Value.ToString();
+                birimFiyat.Text = stokListe.Rows[e.RowIndex].Cells[4].Value.ToString();
+                sonEklenenAdet.Text = stokListe.Rows[e.RowIndex].Cells[5].Value.ToString();
+                sonEklenennTarih.Text = stokListe.Rows[e.RowIndex].Cells[6].Value.ToString();
+            }catch (Exception)
+            {
+                MessageBox.Show("Olmayan Satırı seçemezsiniz.");
+            }
+
         }
 
         private void BKN_Click(object sender, EventArgs e)

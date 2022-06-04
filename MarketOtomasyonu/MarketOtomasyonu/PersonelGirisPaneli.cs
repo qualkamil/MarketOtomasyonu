@@ -49,5 +49,12 @@ namespace MarketOtomasyonu
                 throw;
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MarketOtomasyonu marketOtomasyonu = new MarketOtomasyonu();
+            this.Hide();
+            marketOtomasyonu.Show();
+        }
     }
 }

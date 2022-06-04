@@ -93,6 +93,7 @@
             this.personelYonetimi.TabIndex = 4;
             this.personelYonetimi.Text = "Personel Yönetimi";
             this.personelYonetimi.UseVisualStyleBackColor = true;
+            this.personelYonetimi.Click += new System.EventHandler(this.personelYonetimi_Click);
             // 
             // cikisYap
             // 
@@ -104,6 +105,7 @@
             this.cikisYap.TabIndex = 5;
             this.cikisYap.Text = "Çıkış Yap";
             this.cikisYap.UseVisualStyleBackColor = true;
+            this.cikisYap.Click += new System.EventHandler(this.cikisYap_Click);
             // 
             // YoneticiPaneli
             // 

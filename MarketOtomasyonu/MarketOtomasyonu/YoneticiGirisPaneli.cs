@@ -23,7 +23,6 @@ namespace MarketOtomasyonu
         {
             conn.Close();
             conn.Open();
-
             try
             {
                 SqlCommand cmd = new SqlCommand("Select * From Yoneticiler where YoneticiKullaniciAdi='" + kullaniciAdi.Text +
@@ -49,6 +48,11 @@ namespace MarketOtomasyonu
             }
         }
 
-       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MarketOtomasyonu marketOtomasyonu = new MarketOtomasyonu();
+            this.Hide();
+            marketOtomasyonu.Show();
+        }
     }
 }

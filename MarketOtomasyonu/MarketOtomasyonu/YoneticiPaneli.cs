@@ -36,5 +36,19 @@ namespace MarketOtomasyonu
             this.Hide();
             gelirGiderKontrolu.Show();
         }
+
+        private void personelYonetimi_Click(object sender, EventArgs e)
+        {
+            PersonelYonetimi personelYonetimi = new PersonelYonetimi();
+            this.Hide();
+            personelYonetimi.Show();
+        }
+
+        private void cikisYap_Click(object sender, EventArgs e)
+        {
+            MarketOtomasyonu marketOtomasyonu = new MarketOtomasyonu();
+            this.Hide();
+            marketOtomasyonu.Show();
+        }
     }
 }
