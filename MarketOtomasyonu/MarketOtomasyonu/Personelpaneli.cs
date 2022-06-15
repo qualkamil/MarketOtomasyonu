@@ -19,7 +19,16 @@ namespace MarketOtomasyonu
 
         private void cikisYap_Click(object sender, EventArgs e)
         {
+            MarketOtomasyonu marketOtomasyonu = new MarketOtomasyonu();
+            this.Hide();
+            marketOtomasyonu.Show();
+        }
 
+        private void satisIslemleri_Click(object sender, EventArgs e)
+        {
+            SatisIslemleri satisIslemleri = new SatisIslemleri();
+            this.Hide();
+            satisIslemleri.Show();
         }
     }
 }

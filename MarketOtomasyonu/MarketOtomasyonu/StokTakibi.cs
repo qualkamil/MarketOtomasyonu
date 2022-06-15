@@ -127,7 +127,7 @@ namespace MarketOtomasyonu
                 listeleme();
             }catch(Exception)
             {
-                MessageBox.Show("Silme istediğiniz kaydın Barkod Numarasını Seçiniz.");
+                MessageBox.Show("Silmek istediğiniz kaydın Barkod Numarasını Seçiniz.");
             }
         }
 
@@ -151,8 +151,9 @@ namespace MarketOtomasyonu
         {
             conn.Close();
             conn.Open();
+            int barkodNu = Convert.ToInt32(barkodNo.Text);
             String sorgu = "Update Stok set BarkodNo=@BarkodNo, StokAd=@StokAd, StokMarka=@StokMarka,StokAdet=@StokAdet,SonAlinanBirimFiyat= " +
-                "@SonAlinanBirimFiyat,SonEklenenAdet=@SonEklenenAdet,SonEklenenTarih= @SonEklenenTarih";
+                "@SonAlinanBirimFiyat,SonEklenenAdet=@SonEklenenAdet,SonEklenenTarih= @SonEklenenTarih where BarkodNo = '"+barkodNu+"'";
             cmd = new SqlCommand(sorgu, conn);
             cmd.Parameters.AddWithValue("@BarkodNo", barkodNo.Text);
             cmd.Parameters.AddWithValue("@StokAd", stokAdi.Text);
@@ -172,8 +173,8 @@ namespace MarketOtomasyonu
         {
             try
             {
-                barkodNo.Text = stokListe.Rows[e.RowIndex].Cells[0].Value.ToString();
-                stokAdi.Text = stokListe.Rows[e.RowIndex].Cells[1].Value.ToString();
+                barkodNo.Text = stokListe.Rows[e.RowIndex].Cells[1].Value.ToString();
+                stokAdi.Text = stokListe.Rows[e.RowIndex].Cells[0].Value.ToString();
                 stokMarka.Text = stokListe.Rows[e.RowIndex].Cells[2].Value.ToString();
                 stokAdet.Text = stokListe.Rows[e.RowIndex].Cells[3].Value.ToString();
                 birimFiyat.Text = stokListe.Rows[e.RowIndex].Cells[4].Value.ToString();
@@ -186,24 +187,6 @@ namespace MarketOtomasyonu
 
         }
 
-        private void BKN_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void SKadedi_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void stokListe_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void stokMarka_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

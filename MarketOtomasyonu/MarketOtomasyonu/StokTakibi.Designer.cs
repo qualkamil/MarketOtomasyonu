@@ -78,7 +78,6 @@
             this.BKN.Size = new System.Drawing.Size(89, 17);
             this.BKN.TabIndex = 1;
             this.BKN.Text = "Barkod No :";
-            this.BKN.Click += new System.EventHandler(this.BKN_Click);
             // 
             // SKadı
             // 
@@ -109,7 +108,6 @@
             this.SKadedi.Size = new System.Drawing.Size(89, 17);
             this.SKadedi.TabIndex = 4;
             this.SKadedi.Text = "Stok Adedi :";
-            this.SKadedi.Click += new System.EventHandler(this.SKadedi_Click);
             // 
             // sonfıyat
             // 
@@ -164,7 +162,6 @@
             this.stokMarka.Name = "stokMarka";
             this.stokMarka.Size = new System.Drawing.Size(194, 24);
             this.stokMarka.TabIndex = 10;
-            this.stokMarka.TextChanged += new System.EventHandler(this.stokMarka_TextChanged);
             // 
             // stokAdet
             // 
@@ -326,7 +323,6 @@
             this.stokListe.Name = "stokListe";
             this.stokListe.Size = new System.Drawing.Size(946, 340);
             this.stokListe.TabIndex = 28;
-            this.stokListe.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.stokListe_CellContentClick);
             this.stokListe.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.stokListe_RowEnter);
             // 
             // StokTakibi
